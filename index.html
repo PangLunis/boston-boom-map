@@ -18,7 +18,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_acd07f6eb5ad7c50eb7274882af41266 {
+                #map_fa6a0652254f6acd2b208a93e4c8117b {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -62,22 +62,22 @@
      box-shadow:0 2px 8px rgba(0,0,0,0.2);max-width:560px;">
      <div style="font-size:17px;font-weight:700;color:#b32400;">💥 Greater Boston "Boom" — live heat map</div>
      <div style="font-size:13px;color:#222;margin-top:3px;">
-       <b>292 people on Reddit</b> reported hearing/feeling it across <b>70 towns</b>.
+       <b>367 people on Reddit</b> reported hearing/feeling it across <b>83 towns</b>.
        Leading theory: <b>meteor air burst</b> <i>(unconfirmed)</i>. Heard RI&nbsp;→&nbsp;NH.</div>
      <div style="font-size:11px;color:#666;margin-top:4px;">
-       🔄 Auto-updates every 5 min · <b>last updated 5:43 PM ET · May 30, 2026</b> · refresh to reload<br>
+       🔄 Auto-updates every 5 min · <b>last updated 5:49 PM ET · May 30, 2026</b> · refresh to reload<br>
        Heat = density of "heard it" reports · tap a dot for the town count<br>
        Source: r/boston + r/massachusetts (Arctic Shift archive). Crowd signal, not official.</div>
     </div>
     
-            <div class="folium-map" id="map_acd07f6eb5ad7c50eb7274882af41266" ></div>
+            <div class="folium-map" id="map_fa6a0652254f6acd2b208a93e4c8117b" ></div>
         
 </body>
 <script>
     
     
-            var map_acd07f6eb5ad7c50eb7274882af41266 = L.map(
-                "map_acd07f6eb5ad7c50eb7274882af41266",
+            var map_fa6a0652254f6acd2b208a93e4c8117b = L.map(
+                "map_fa6a0652254f6acd2b208a93e4c8117b",
                 {
                     center: [42.45, -71.05],
                     crs: L.CRS.EPSG3857,
@@ -89,13 +89,13 @@
 
                 }
             );
-            L.control.scale().addTo(map_acd07f6eb5ad7c50eb7274882af41266);
+            L.control.scale().addTo(map_fa6a0652254f6acd2b208a93e4c8117b);
 
             
 
         
     
-            var tile_layer_d6c081cb108f81d561196d77f1c3c908 = L.tileLayer(
+            var tile_layer_fcfa9e4e01737f0ee01759d457dc73c9 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {
   "minZoom": 0,
@@ -112,11 +112,11 @@
             );
         
     
-            tile_layer_d6c081cb108f81d561196d77f1c3c908.addTo(map_acd07f6eb5ad7c50eb7274882af41266);
+            tile_layer_fcfa9e4e01737f0ee01759d457dc73c9.addTo(map_fa6a0652254f6acd2b208a93e4c8117b);
         
     
-            var heat_map_e858bb8c7aa8a80a7492900cd86035ac = L.heatLayer(
-                [[42.4584, -71.0662, 7], [42.3601, -71.0589, 39], [42.2835, -71.3495, 4], [42.2793, -71.4162, 4], [42.4184, -71.1062, 8], [42.4154, -71.1565, 11], [42.1418, -71.2495, 2], [42.4801, -71.0995, 4], [42.4251, -71.0662, 7], [42.337, -71.2092, 11], [42.35, -71.156, 6], [42.3709, -71.1828, 5], [42.5037, -71.0723, 6], [42.5279, -70.9287, 7], [42.3736, -71.1097, 6], [42.6106, -71.2342, 3], [42.3318, -71.1212, 4], [41.824, -71.4128, 8], [42.353, -71.132, 5], [42.5751, -70.93, 5], [42.0834, -71.3967, 3], [42.2809, -71.2378, 3], [42.6792, -70.8412, 3], [42.3765, -71.2356, 9], [42.5465, -71.1734, 3], [42.3959, -71.1786, 4], [42.2968, -71.2924, 3], [42.5195, -70.8967, 5], [41.9445, -71.2856, 1], [42.4523, -71.137, 3], [42.4668, -70.9495, 1], [42.4654, -71.0107, 2], [42.5256, -71.0954, 13], [42.7762, -71.0773, 3], [42.5584, -70.88, 1], [42.539, -71.0426, 2], [42.1959, -70.7259, 1], [42.4604, -71.3489, 2], [41.7, -71.5, 5], [42.1626, -71.0412, 1], [42.4793, -71.1523, 7], [42.1876, -71.3062, 2], [42.4851, -71.4328, 3], [42.1945, -71.1995, 2], [42.6334, -71.3162, 3], [42.5751, -71.0787, 4], [42.7262, -71.1909, 5], [42.4906, -71.2761, 3], [42.6583, -71.1368, 3], [42.2418, -71.1662, 2], [42.638, -70.949, 1], [42.2529, -71.0023, 1], [41.7001, -71.4162, 1], [42.3876, -71.0995, 4], [42.0834, -71.0184, 2], [42.4084, -71.012, 3], [42.4084, -71.0537, 2], [41.7798, -71.4373, 1], [42.5001, -70.8578, 1], [42.6159, -70.662, 1], [42.2626, -71.8023, 2], [43.0, -71.45, 2], [42.0334, -71.2189, 1], [42.024, -71.13, 1], [42.707, -71.1631, 1], [42.7884, -71.2009, 1], [42.443, -71.229, 3], [42.8126, -70.8773, 1], [41.9584, -70.6673, 1], [42.287, -71.124, 1]],
+            var heat_map_0ce32135b5a8b469a386e3df0f94ebff = L.heatLayer(
+                [[42.3601, -71.0589, 49], [42.1418, -71.2495, 2], [42.4801, -71.0995, 5], [42.2793, -71.4162, 5], [42.4251, -71.0662, 7], [42.337, -71.2092, 13], [42.35, -71.156, 7], [42.3709, -71.1828, 7], [42.5037, -71.0723, 6], [42.5279, -70.9287, 7], [42.3736, -71.1097, 12], [42.6106, -71.2342, 3], [42.3318, -71.1212, 9], [41.824, -71.4128, 8], [42.353, -71.132, 5], [42.5751, -70.93, 5], [42.0834, -71.3967, 3], [42.4154, -71.1565, 11], [42.2809, -71.2378, 5], [42.6792, -70.8412, 3], [42.3765, -71.2356, 9], [42.5465, -71.1734, 3], [42.2835, -71.3495, 4], [42.3959, -71.1786, 4], [42.2968, -71.2924, 4], [42.5195, -70.8967, 6], [41.9445, -71.2856, 2], [42.4184, -71.1062, 9], [42.4523, -71.137, 3], [42.4584, -71.0662, 8], [42.5256, -71.0954, 15], [42.4793, -71.1523, 7], [42.539, -71.0426, 2], [42.1876, -71.3062, 2], [41.7, -71.5, 8], [42.4851, -71.4328, 4], [42.1945, -71.1995, 2], [42.6334, -71.3162, 3], [42.5751, -71.0787, 4], [42.7262, -71.1909, 5], [42.4906, -71.2761, 3], [42.6583, -71.1368, 5], [42.2418, -71.1662, 2], [42.638, -70.949, 1], [42.2529, -71.0023, 2], [42.4654, -71.0107, 3], [41.7001, -71.4162, 1], [42.3876, -71.0995, 5], [42.0834, -71.0184, 2], [42.4084, -71.012, 3], [42.4084, -71.0537, 3], [41.7798, -71.4373, 2], [42.5001, -70.8578, 1], [42.6159, -70.662, 1], [42.2626, -71.8023, 2], [42.4604, -71.3489, 2], [43.0, -71.45, 2], [42.0334, -71.2189, 1], [42.024, -71.13, 1], [42.707, -71.1631, 1], [42.7884, -71.2009, 1], [42.4668, -70.9495, 2], [42.443, -71.229, 3], [41.9584, -70.6673, 4], [42.375, -71.039, 2], [42.0029, -71.5151, 1], [42.3, -71.066, 2], [42.9956, -71.4548, 2], [42.5048, -71.1956, 1], [42.327, -71.095, 1], [42.218, -70.9395, 1], [42.345, -71.104, 1], [42.333, -71.049, 1], [42.378, -71.061, 1], [42.3459, -71.5523, 1], [42.3918, -71.0328, 1], [42.7654, -71.4676, 1], [42.1959, -70.7259, 1], [42.5584, -70.88, 2], [42.1626, -71.0412, 1], [42.7762, -71.0773, 2], [42.8126, -70.8773, 1], [42.287, -71.124, 1]],
                 {
   "minOpacity": 0.5,
   "maxZoom": 12,
@@ -132,41 +132,41 @@
             );
         
     
-            heat_map_e858bb8c7aa8a80a7492900cd86035ac.addTo(map_acd07f6eb5ad7c50eb7274882af41266);
+            heat_map_0ce32135b5a8b469a386e3df0f94ebff.addTo(map_fa6a0652254f6acd2b208a93e4c8117b);
         
     
-            var feature_group_4cd3eb5935a0af69d72cf5fae5325628 = L.featureGroup(
+            var feature_group_59ffa4eb7d84822aeb6619408f63addc = L.featureGroup(
                 {
 }
             );
         
     
-            var circle_marker_268141dfc39dbf7b32ca01a4f58dd372 = L.circleMarker(
+            var circle_marker_f181481995a634e69421866816e414c5 = L.circleMarker(
                 [42.3601, -71.0589],
-                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 43.1, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 52.1, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_c96fd34db0494b22fac8269509dca915 = L.popup({
+        var popup_88172111389ca8467d122fcaa223511c = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_676c14189bf65118a1399a47caca94db = $(`<div id="html_676c14189bf65118a1399a47caca94db" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Boston</b><br><b>39</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_c96fd34db0494b22fac8269509dca915.setContent(html_676c14189bf65118a1399a47caca94db);
+                var html_50767c6beab01b0c1a79a0f14a3545a1 = $(`<div id="html_50767c6beab01b0c1a79a0f14a3545a1" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Boston</b><br><b>49</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_88172111389ca8467d122fcaa223511c.setContent(html_50767c6beab01b0c1a79a0f14a3545a1);
             
         
 
-        circle_marker_268141dfc39dbf7b32ca01a4f58dd372.bindPopup(popup_c96fd34db0494b22fac8269509dca915)
+        circle_marker_f181481995a634e69421866816e414c5.bindPopup(popup_88172111389ca8467d122fcaa223511c)
         ;
 
         
     
     
-            circle_marker_268141dfc39dbf7b32ca01a4f58dd372.bindTooltip(
+            circle_marker_f181481995a634e69421866816e414c5.bindTooltip(
                 `<div>
-                     Boston: 39 — tap for details
+                     Boston: 49 — tap for details
                  </div>`,
                 {
   "sticky": true,
@@ -174,32 +174,32 @@
             );
         
     
-            var circle_marker_fd602617b8ecca949a3b154dcc664e02 = L.circleMarker(
+            var circle_marker_2609f6456531a739fd27c97306b631d5 = L.circleMarker(
                 [42.5256, -71.0954],
-                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 19.700000000000003, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 21.5, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_7ae9f61777c01c74ad08b61f8fe29ef6 = L.popup({
+        var popup_7de0557fbca0d71b9fe75866ac2d6b5d = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_97e8a5a9967a5a9d776303b1eb992e38 = $(`<div id="html_97e8a5a9967a5a9d776303b1eb992e38" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Reading</b><br><b>13</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_7ae9f61777c01c74ad08b61f8fe29ef6.setContent(html_97e8a5a9967a5a9d776303b1eb992e38);
+                var html_a1893d87feb4d33f71436bb8502cad71 = $(`<div id="html_a1893d87feb4d33f71436bb8502cad71" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Reading</b><br><b>15</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_7de0557fbca0d71b9fe75866ac2d6b5d.setContent(html_a1893d87feb4d33f71436bb8502cad71);
             
         
 
-        circle_marker_fd602617b8ecca949a3b154dcc664e02.bindPopup(popup_7ae9f61777c01c74ad08b61f8fe29ef6)
+        circle_marker_2609f6456531a739fd27c97306b631d5.bindPopup(popup_7de0557fbca0d71b9fe75866ac2d6b5d)
         ;
 
         
     
     
-            circle_marker_fd602617b8ecca949a3b154dcc664e02.bindTooltip(
+            circle_marker_2609f6456531a739fd27c97306b631d5.bindTooltip(
                 `<div>
-                     Reading: 13 — tap for details
+                     Reading: 15 — tap for details
                  </div>`,
                 {
   "sticky": true,
@@ -207,30 +207,96 @@
             );
         
     
-            var circle_marker_65611f90ed0b53439065cb85ffabfd71 = L.circleMarker(
+            var circle_marker_c73c3811ba02b662b54cc6df50339891 = L.circleMarker(
+                [42.337, -71.2092],
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 19.700000000000003, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
+        
+    
+        var popup_d5976b420eeea549cadf7283271c3121 = L.popup({
+  "maxWidth": 240,
+});
+
+        
+            
+                var html_e47b4f19a9e9cb04e3e16ce66aac8475 = $(`<div id="html_e47b4f19a9e9cb04e3e16ce66aac8475" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Newton</b><br><b>13</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_d5976b420eeea549cadf7283271c3121.setContent(html_e47b4f19a9e9cb04e3e16ce66aac8475);
+            
+        
+
+        circle_marker_c73c3811ba02b662b54cc6df50339891.bindPopup(popup_d5976b420eeea549cadf7283271c3121)
+        ;
+
+        
+    
+    
+            circle_marker_c73c3811ba02b662b54cc6df50339891.bindTooltip(
+                `<div>
+                     Newton: 13 — tap for details
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c59cb71e2c9a4c3b529fa85621d68c29 = L.circleMarker(
+                [42.3736, -71.1097],
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 18.8, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
+        
+    
+        var popup_650371b8de36aad71663d0b05343a511 = L.popup({
+  "maxWidth": 240,
+});
+
+        
+            
+                var html_9d10f78fe9ebdd4a4d8301761d6abe76 = $(`<div id="html_9d10f78fe9ebdd4a4d8301761d6abe76" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Cambridge</b><br><b>12</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_650371b8de36aad71663d0b05343a511.setContent(html_9d10f78fe9ebdd4a4d8301761d6abe76);
+            
+        
+
+        circle_marker_c59cb71e2c9a4c3b529fa85621d68c29.bindPopup(popup_650371b8de36aad71663d0b05343a511)
+        ;
+
+        
+    
+    
+            circle_marker_c59cb71e2c9a4c3b529fa85621d68c29.bindTooltip(
+                `<div>
+                     Cambridge: 12 — tap for details
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2cf21f80bb4063960ed6714d8f705334 = L.circleMarker(
                 [42.4154, -71.1565],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 17.9, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_540fb881d71c2a1d02e129c192ec7efd = L.popup({
+        var popup_485a0853381d3a9bda0d4c424530d002 = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_c80e66e8841b61135fbe43b08aad4943 = $(`<div id="html_c80e66e8841b61135fbe43b08aad4943" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Arlington</b><br><b>11</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_540fb881d71c2a1d02e129c192ec7efd.setContent(html_c80e66e8841b61135fbe43b08aad4943);
+                var html_3361a2e7b61dbf90c13834c29e390351 = $(`<div id="html_3361a2e7b61dbf90c13834c29e390351" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Arlington</b><br><b>11</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_485a0853381d3a9bda0d4c424530d002.setContent(html_3361a2e7b61dbf90c13834c29e390351);
             
         
 
-        circle_marker_65611f90ed0b53439065cb85ffabfd71.bindPopup(popup_540fb881d71c2a1d02e129c192ec7efd)
+        circle_marker_2cf21f80bb4063960ed6714d8f705334.bindPopup(popup_485a0853381d3a9bda0d4c424530d002)
         ;
 
         
     
     
-            circle_marker_65611f90ed0b53439065cb85ffabfd71.bindTooltip(
+            circle_marker_2cf21f80bb4063960ed6714d8f705334.bindTooltip(
                 `<div>
                      Arlington: 11 — tap for details
                  </div>`,
@@ -240,32 +306,32 @@
             );
         
     
-            var circle_marker_caeb36882a82ba923d97d6ca3800c964 = L.circleMarker(
-                [42.337, -71.2092],
-                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 17.9, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            var circle_marker_bc50ec13a6e838c06eaca27203b551a1 = L.circleMarker(
+                [42.3318, -71.1212],
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 16.1, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_4604768724ed8d04c28c94c09c6382cf = L.popup({
+        var popup_123f88e4154940b0188a7038ab0002a4 = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_548a457f94c290d99a2c60736f67a085 = $(`<div id="html_548a457f94c290d99a2c60736f67a085" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Newton</b><br><b>11</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_4604768724ed8d04c28c94c09c6382cf.setContent(html_548a457f94c290d99a2c60736f67a085);
+                var html_f18d2f527ae0dfa89894f9dc1cb2595d = $(`<div id="html_f18d2f527ae0dfa89894f9dc1cb2595d" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Brookline</b><br><b>9</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_123f88e4154940b0188a7038ab0002a4.setContent(html_f18d2f527ae0dfa89894f9dc1cb2595d);
             
         
 
-        circle_marker_caeb36882a82ba923d97d6ca3800c964.bindPopup(popup_4604768724ed8d04c28c94c09c6382cf)
+        circle_marker_bc50ec13a6e838c06eaca27203b551a1.bindPopup(popup_123f88e4154940b0188a7038ab0002a4)
         ;
 
         
     
     
-            circle_marker_caeb36882a82ba923d97d6ca3800c964.bindTooltip(
+            circle_marker_bc50ec13a6e838c06eaca27203b551a1.bindTooltip(
                 `<div>
-                     Newton: 11 — tap for details
+                     Brookline: 9 — tap for details
                  </div>`,
                 {
   "sticky": true,
@@ -273,30 +339,30 @@
             );
         
     
-            var circle_marker_229615791c9b9c89a579a0ba780e5c41 = L.circleMarker(
+            var circle_marker_a337d907e905068ded6fdf4625b673d9 = L.circleMarker(
                 [42.3765, -71.2356],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 16.1, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_313f9af73cca1bc9bc4dcc4cfa9e2a8f = L.popup({
+        var popup_547947e61abcc3f3cd8a58a997e9a8fa = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_ad59e4c0edd452bfd7a77e8a52038d86 = $(`<div id="html_ad59e4c0edd452bfd7a77e8a52038d86" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Waltham</b><br><b>9</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_313f9af73cca1bc9bc4dcc4cfa9e2a8f.setContent(html_ad59e4c0edd452bfd7a77e8a52038d86);
+                var html_773b12794b85aef826a789d49b187058 = $(`<div id="html_773b12794b85aef826a789d49b187058" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Waltham</b><br><b>9</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_547947e61abcc3f3cd8a58a997e9a8fa.setContent(html_773b12794b85aef826a789d49b187058);
             
         
 
-        circle_marker_229615791c9b9c89a579a0ba780e5c41.bindPopup(popup_313f9af73cca1bc9bc4dcc4cfa9e2a8f)
+        circle_marker_a337d907e905068ded6fdf4625b673d9.bindPopup(popup_547947e61abcc3f3cd8a58a997e9a8fa)
         ;
 
         
     
     
-            circle_marker_229615791c9b9c89a579a0ba780e5c41.bindTooltip(
+            circle_marker_a337d907e905068ded6fdf4625b673d9.bindTooltip(
                 `<div>
                      Waltham: 9 — tap for details
                  </div>`,
@@ -306,32 +372,32 @@
             );
         
     
-            var circle_marker_6cc8cee3c96e3595ee77236a43a15863 = L.circleMarker(
+            var circle_marker_5760e791e20df59d1ff6bffa8e9de8d6 = L.circleMarker(
                 [42.4184, -71.1062],
-                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 15.2, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 16.1, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_773aa8f80a44baa81c54a46933f6145c = L.popup({
+        var popup_b08ff5f0617ec3410b6db29dcab743c8 = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_111a1a775a43872d0b6b6270dc129e81 = $(`<div id="html_111a1a775a43872d0b6b6270dc129e81" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Medford</b><br><b>8</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_773aa8f80a44baa81c54a46933f6145c.setContent(html_111a1a775a43872d0b6b6270dc129e81);
+                var html_75ec3f3637fe6b5fb675d499c8f3519b = $(`<div id="html_75ec3f3637fe6b5fb675d499c8f3519b" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Medford</b><br><b>9</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_b08ff5f0617ec3410b6db29dcab743c8.setContent(html_75ec3f3637fe6b5fb675d499c8f3519b);
             
         
 
-        circle_marker_6cc8cee3c96e3595ee77236a43a15863.bindPopup(popup_773aa8f80a44baa81c54a46933f6145c)
+        circle_marker_5760e791e20df59d1ff6bffa8e9de8d6.bindPopup(popup_b08ff5f0617ec3410b6db29dcab743c8)
         ;
 
         
     
     
-            circle_marker_6cc8cee3c96e3595ee77236a43a15863.bindTooltip(
+            circle_marker_5760e791e20df59d1ff6bffa8e9de8d6.bindTooltip(
                 `<div>
-                     Medford: 8 — tap for details
+                     Medford: 9 — tap for details
                  </div>`,
                 {
   "sticky": true,
@@ -339,30 +405,30 @@
             );
         
     
-            var circle_marker_bc6e9a2e810e0970516889d8ac4e07a7 = L.circleMarker(
+            var circle_marker_5b144f79facbb5115efa3573a1262279 = L.circleMarker(
                 [41.824, -71.4128],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 15.2, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_073fc62b325917d250bdf3c12f75f73b = L.popup({
+        var popup_874596c00507edb0bd44e1278374eeb7 = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_bf1eb02f95e9e8f31d5bea695b55e544 = $(`<div id="html_bf1eb02f95e9e8f31d5bea695b55e544" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Providence</b><br><b>8</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_073fc62b325917d250bdf3c12f75f73b.setContent(html_bf1eb02f95e9e8f31d5bea695b55e544);
+                var html_bfe1b14e13593b5bdf3ebcef2c83eb08 = $(`<div id="html_bfe1b14e13593b5bdf3ebcef2c83eb08" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Providence</b><br><b>8</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_874596c00507edb0bd44e1278374eeb7.setContent(html_bfe1b14e13593b5bdf3ebcef2c83eb08);
             
         
 
-        circle_marker_bc6e9a2e810e0970516889d8ac4e07a7.bindPopup(popup_073fc62b325917d250bdf3c12f75f73b)
+        circle_marker_5b144f79facbb5115efa3573a1262279.bindPopup(popup_874596c00507edb0bd44e1278374eeb7)
         ;
 
         
     
     
-            circle_marker_bc6e9a2e810e0970516889d8ac4e07a7.bindTooltip(
+            circle_marker_5b144f79facbb5115efa3573a1262279.bindTooltip(
                 `<div>
                      Providence: 8 — tap for details
                  </div>`,
@@ -372,32 +438,32 @@
             );
         
     
-            var circle_marker_44e9fd0ba09c1c5aa8f4743794d1a5b5 = L.circleMarker(
+            var circle_marker_f5a76d034482304785f597c84faed0c4 = L.circleMarker(
                 [42.4584, -71.0662],
-                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 14.3, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 15.2, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_a4b064d89f43378317f12158e1d957dd = L.popup({
+        var popup_d41eb6fafb72785836361fcd05f5f3df = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_d9d6f4d3b548494768416bf4a58ccb89 = $(`<div id="html_d9d6f4d3b548494768416bf4a58ccb89" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Melrose</b><br><b>7</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_a4b064d89f43378317f12158e1d957dd.setContent(html_d9d6f4d3b548494768416bf4a58ccb89);
+                var html_9041f0a934399aa7dba098ff0e1f306a = $(`<div id="html_9041f0a934399aa7dba098ff0e1f306a" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Melrose</b><br><b>8</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_d41eb6fafb72785836361fcd05f5f3df.setContent(html_9041f0a934399aa7dba098ff0e1f306a);
             
         
 
-        circle_marker_44e9fd0ba09c1c5aa8f4743794d1a5b5.bindPopup(popup_a4b064d89f43378317f12158e1d957dd)
+        circle_marker_f5a76d034482304785f597c84faed0c4.bindPopup(popup_d41eb6fafb72785836361fcd05f5f3df)
         ;
 
         
     
     
-            circle_marker_44e9fd0ba09c1c5aa8f4743794d1a5b5.bindTooltip(
+            circle_marker_f5a76d034482304785f597c84faed0c4.bindTooltip(
                 `<div>
-                     Melrose: 7 — tap for details
+                     Melrose: 8 — tap for details
                  </div>`,
                 {
   "sticky": true,
@@ -405,30 +471,63 @@
             );
         
     
-            var circle_marker_2c3177f6f2705138574d92e782016f5a = L.circleMarker(
-                [42.4251, -71.0662],
-                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 14.3, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            var circle_marker_00add6a2da7dd40ff1e91748c4c4078b = L.circleMarker(
+                [41.7, -71.5],
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 15.2, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_4a0fc8ac2c425a181e5e7f8341fd1287 = L.popup({
+        var popup_2bc99602d799441eadb468cc8e66a3aa = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_b327544a8f29302dd2264286ee3c423f = $(`<div id="html_b327544a8f29302dd2264286ee3c423f" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Malden</b><br><b>7</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_4a0fc8ac2c425a181e5e7f8341fd1287.setContent(html_b327544a8f29302dd2264286ee3c423f);
+                var html_a3b969f799474c806592b6bce8f612d5 = $(`<div id="html_a3b969f799474c806592b6bce8f612d5" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Rhode Island</b><br><b>8</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_2bc99602d799441eadb468cc8e66a3aa.setContent(html_a3b969f799474c806592b6bce8f612d5);
             
         
 
-        circle_marker_2c3177f6f2705138574d92e782016f5a.bindPopup(popup_4a0fc8ac2c425a181e5e7f8341fd1287)
+        circle_marker_00add6a2da7dd40ff1e91748c4c4078b.bindPopup(popup_2bc99602d799441eadb468cc8e66a3aa)
         ;
 
         
     
     
-            circle_marker_2c3177f6f2705138574d92e782016f5a.bindTooltip(
+            circle_marker_00add6a2da7dd40ff1e91748c4c4078b.bindTooltip(
+                `<div>
+                     Rhode Island: 8 — tap for details
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b21d3cc9867a14e8dd8a9173eb54b031 = L.circleMarker(
+                [42.4251, -71.0662],
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 14.3, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
+        
+    
+        var popup_82791296efa227ed0aa63dff78fb2d78 = L.popup({
+  "maxWidth": 240,
+});
+
+        
+            
+                var html_5fe5b742081cbf2b0fbd5a99c3483d90 = $(`<div id="html_5fe5b742081cbf2b0fbd5a99c3483d90" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Malden</b><br><b>7</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_82791296efa227ed0aa63dff78fb2d78.setContent(html_5fe5b742081cbf2b0fbd5a99c3483d90);
+            
+        
+
+        circle_marker_b21d3cc9867a14e8dd8a9173eb54b031.bindPopup(popup_82791296efa227ed0aa63dff78fb2d78)
+        ;
+
+        
+    
+    
+            circle_marker_b21d3cc9867a14e8dd8a9173eb54b031.bindTooltip(
                 `<div>
                      Malden: 7 — tap for details
                  </div>`,
@@ -438,30 +537,96 @@
             );
         
     
-            var circle_marker_2bce00697426df5530293b1fa41cddd8 = L.circleMarker(
-                [42.5279, -70.9287],
+            var circle_marker_d397c40c144e705939cd2b73923d822e = L.circleMarker(
+                [42.35, -71.156],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 14.3, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_cabe96c033ede4c63c39fa2805915b9f = L.popup({
+        var popup_7b7bf8c0ef0b4fef33d9dc0e2bd36070 = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_ff0be11f1b8b36badffd1f884d9029d1 = $(`<div id="html_ff0be11f1b8b36badffd1f884d9029d1" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Peabody</b><br><b>7</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_cabe96c033ede4c63c39fa2805915b9f.setContent(html_ff0be11f1b8b36badffd1f884d9029d1);
+                var html_f7aed0d86665e39a1091a57b11c39e98 = $(`<div id="html_f7aed0d86665e39a1091a57b11c39e98" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Brighton</b><br><b>7</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_7b7bf8c0ef0b4fef33d9dc0e2bd36070.setContent(html_f7aed0d86665e39a1091a57b11c39e98);
             
         
 
-        circle_marker_2bce00697426df5530293b1fa41cddd8.bindPopup(popup_cabe96c033ede4c63c39fa2805915b9f)
+        circle_marker_d397c40c144e705939cd2b73923d822e.bindPopup(popup_7b7bf8c0ef0b4fef33d9dc0e2bd36070)
         ;
 
         
     
     
-            circle_marker_2bce00697426df5530293b1fa41cddd8.bindTooltip(
+            circle_marker_d397c40c144e705939cd2b73923d822e.bindTooltip(
+                `<div>
+                     Brighton: 7 — tap for details
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_82087ee89b76ead8d3bd2455a9397484 = L.circleMarker(
+                [42.3709, -71.1828],
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 14.3, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
+        
+    
+        var popup_c654b89222645208c3144c6f4f3ce38c = L.popup({
+  "maxWidth": 240,
+});
+
+        
+            
+                var html_9e078cef31f80287a895e60df03e5602 = $(`<div id="html_9e078cef31f80287a895e60df03e5602" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Watertown</b><br><b>7</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_c654b89222645208c3144c6f4f3ce38c.setContent(html_9e078cef31f80287a895e60df03e5602);
+            
+        
+
+        circle_marker_82087ee89b76ead8d3bd2455a9397484.bindPopup(popup_c654b89222645208c3144c6f4f3ce38c)
+        ;
+
+        
+    
+    
+            circle_marker_82087ee89b76ead8d3bd2455a9397484.bindTooltip(
+                `<div>
+                     Watertown: 7 — tap for details
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c84f6d4f6e89001e14e8646ba5ed80bf = L.circleMarker(
+                [42.5279, -70.9287],
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 14.3, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
+        
+    
+        var popup_7f0c3e72786fad04f328792280982f93 = L.popup({
+  "maxWidth": 240,
+});
+
+        
+            
+                var html_e9bd90a1776025e119c26ce2bde9527d = $(`<div id="html_e9bd90a1776025e119c26ce2bde9527d" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Peabody</b><br><b>7</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_7f0c3e72786fad04f328792280982f93.setContent(html_e9bd90a1776025e119c26ce2bde9527d);
+            
+        
+
+        circle_marker_c84f6d4f6e89001e14e8646ba5ed80bf.bindPopup(popup_7f0c3e72786fad04f328792280982f93)
+        ;
+
+        
+    
+    
+            circle_marker_c84f6d4f6e89001e14e8646ba5ed80bf.bindTooltip(
                 `<div>
                      Peabody: 7 — tap for details
                  </div>`,
@@ -471,30 +636,30 @@
             );
         
     
-            var circle_marker_a46cabc8c5201713b933dc464fc098ab = L.circleMarker(
+            var circle_marker_c8788fa78b3692dbc4968f3dc1909aae = L.circleMarker(
                 [42.4793, -71.1523],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 14.3, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_a29e4c3b2124f189dc50503478579ca2 = L.popup({
+        var popup_6aa89e206115ec4c610285955335efa4 = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_24d7b1ae63a00feaf9e1deab7eafbeae = $(`<div id="html_24d7b1ae63a00feaf9e1deab7eafbeae" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Woburn</b><br><b>7</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_a29e4c3b2124f189dc50503478579ca2.setContent(html_24d7b1ae63a00feaf9e1deab7eafbeae);
+                var html_0c90250db3436b0e98d40999050452d0 = $(`<div id="html_0c90250db3436b0e98d40999050452d0" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Woburn</b><br><b>7</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_6aa89e206115ec4c610285955335efa4.setContent(html_0c90250db3436b0e98d40999050452d0);
             
         
 
-        circle_marker_a46cabc8c5201713b933dc464fc098ab.bindPopup(popup_a29e4c3b2124f189dc50503478579ca2)
+        circle_marker_c8788fa78b3692dbc4968f3dc1909aae.bindPopup(popup_6aa89e206115ec4c610285955335efa4)
         ;
 
         
     
     
-            circle_marker_a46cabc8c5201713b933dc464fc098ab.bindTooltip(
+            circle_marker_c8788fa78b3692dbc4968f3dc1909aae.bindTooltip(
                 `<div>
                      Woburn: 7 — tap for details
                  </div>`,
@@ -504,63 +669,30 @@
             );
         
     
-            var circle_marker_88752a920f8abfc336b7cb61ebed50c5 = L.circleMarker(
-                [42.35, -71.156],
-                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 13.4, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
-        
-    
-        var popup_af952f023f1aa86c0dfad9ae38445e85 = L.popup({
-  "maxWidth": 240,
-});
-
-        
-            
-                var html_1b2673e34110f08c470a9fe6536f7fc2 = $(`<div id="html_1b2673e34110f08c470a9fe6536f7fc2" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Brighton</b><br><b>6</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_af952f023f1aa86c0dfad9ae38445e85.setContent(html_1b2673e34110f08c470a9fe6536f7fc2);
-            
-        
-
-        circle_marker_88752a920f8abfc336b7cb61ebed50c5.bindPopup(popup_af952f023f1aa86c0dfad9ae38445e85)
-        ;
-
-        
-    
-    
-            circle_marker_88752a920f8abfc336b7cb61ebed50c5.bindTooltip(
-                `<div>
-                     Brighton: 6 — tap for details
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_8b64bb7f1b8c51ed8b3a018fb2643695 = L.circleMarker(
+            var circle_marker_7bad9615601252ac6d7ee7ee627103d8 = L.circleMarker(
                 [42.5037, -71.0723],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 13.4, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_242ba4bbc2a609c1de5b5e46c035a3bb = L.popup({
+        var popup_e766aecf6a1e1eb5a08300b8ff3687ab = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_8324defce774f16cec29f8f4f2e9d812 = $(`<div id="html_8324defce774f16cec29f8f4f2e9d812" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Wakefield</b><br><b>6</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_242ba4bbc2a609c1de5b5e46c035a3bb.setContent(html_8324defce774f16cec29f8f4f2e9d812);
+                var html_1303b7ce2a411dfa2f74152a0e7aabf7 = $(`<div id="html_1303b7ce2a411dfa2f74152a0e7aabf7" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Wakefield</b><br><b>6</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_e766aecf6a1e1eb5a08300b8ff3687ab.setContent(html_1303b7ce2a411dfa2f74152a0e7aabf7);
             
         
 
-        circle_marker_8b64bb7f1b8c51ed8b3a018fb2643695.bindPopup(popup_242ba4bbc2a609c1de5b5e46c035a3bb)
+        circle_marker_7bad9615601252ac6d7ee7ee627103d8.bindPopup(popup_e766aecf6a1e1eb5a08300b8ff3687ab)
         ;
 
         
     
     
-            circle_marker_8b64bb7f1b8c51ed8b3a018fb2643695.bindTooltip(
+            circle_marker_7bad9615601252ac6d7ee7ee627103d8.bindTooltip(
                 `<div>
                      Wakefield: 6 — tap for details
                  </div>`,
@@ -570,32 +702,32 @@
             );
         
     
-            var circle_marker_40c3443f3dd580790e7fba58b788756a = L.circleMarker(
-                [42.3736, -71.1097],
+            var circle_marker_60a0b6b64e38c0d1ea2cad7fba4e9918 = L.circleMarker(
+                [42.5195, -70.8967],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 13.4, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_21e27764e58f4362f0b1881154e3e564 = L.popup({
+        var popup_8cf90fd6501fa0dbf3dd1565aad1b4cc = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_6e209797de10642c0635a51f2156c958 = $(`<div id="html_6e209797de10642c0635a51f2156c958" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Cambridge</b><br><b>6</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_21e27764e58f4362f0b1881154e3e564.setContent(html_6e209797de10642c0635a51f2156c958);
+                var html_91c1932cae25542793f302c6112ea6e9 = $(`<div id="html_91c1932cae25542793f302c6112ea6e9" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Salem</b><br><b>6</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_8cf90fd6501fa0dbf3dd1565aad1b4cc.setContent(html_91c1932cae25542793f302c6112ea6e9);
             
         
 
-        circle_marker_40c3443f3dd580790e7fba58b788756a.bindPopup(popup_21e27764e58f4362f0b1881154e3e564)
+        circle_marker_60a0b6b64e38c0d1ea2cad7fba4e9918.bindPopup(popup_8cf90fd6501fa0dbf3dd1565aad1b4cc)
         ;
 
         
     
     
-            circle_marker_40c3443f3dd580790e7fba58b788756a.bindTooltip(
+            circle_marker_60a0b6b64e38c0d1ea2cad7fba4e9918.bindTooltip(
                 `<div>
-                     Cambridge: 6 — tap for details
+                     Salem: 6 — tap for details
                  </div>`,
                 {
   "sticky": true,
@@ -603,32 +735,32 @@
             );
         
     
-            var circle_marker_4f02f50d6edce3981d4070bfdd9e9893 = L.circleMarker(
-                [42.3709, -71.1828],
+            var circle_marker_a54421f7cdce27f89d7e06defeb48730 = L.circleMarker(
+                [42.4801, -71.0995],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 12.5, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_7edf5bcdd7ddd7e9eec6592cbffd2d7a = L.popup({
+        var popup_a60fcf93946072aa5e7816cd05a17963 = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_6f95869ffe5e33cedfac9231d90a07a7 = $(`<div id="html_6f95869ffe5e33cedfac9231d90a07a7" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Watertown</b><br><b>5</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_7edf5bcdd7ddd7e9eec6592cbffd2d7a.setContent(html_6f95869ffe5e33cedfac9231d90a07a7);
+                var html_353b43dc6962584db1ddce20edc87697 = $(`<div id="html_353b43dc6962584db1ddce20edc87697" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Stoneham</b><br><b>5</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_a60fcf93946072aa5e7816cd05a17963.setContent(html_353b43dc6962584db1ddce20edc87697);
             
         
 
-        circle_marker_4f02f50d6edce3981d4070bfdd9e9893.bindPopup(popup_7edf5bcdd7ddd7e9eec6592cbffd2d7a)
+        circle_marker_a54421f7cdce27f89d7e06defeb48730.bindPopup(popup_a60fcf93946072aa5e7816cd05a17963)
         ;
 
         
     
     
-            circle_marker_4f02f50d6edce3981d4070bfdd9e9893.bindTooltip(
+            circle_marker_a54421f7cdce27f89d7e06defeb48730.bindTooltip(
                 `<div>
-                     Watertown: 5 — tap for details
+                     Stoneham: 5 — tap for details
                  </div>`,
                 {
   "sticky": true,
@@ -636,30 +768,63 @@
             );
         
     
-            var circle_marker_a3a9181152f96ac9132555ba8dbc30b5 = L.circleMarker(
+            var circle_marker_ba811ea3e18811f40ece41e003996155 = L.circleMarker(
+                [42.2793, -71.4162],
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 12.5, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
+        
+    
+        var popup_3067ce4afa58d86d3562f33662b5d1f8 = L.popup({
+  "maxWidth": 240,
+});
+
+        
+            
+                var html_a3aad022bcbc7639412ee10f65c5599a = $(`<div id="html_a3aad022bcbc7639412ee10f65c5599a" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Framingham</b><br><b>5</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_3067ce4afa58d86d3562f33662b5d1f8.setContent(html_a3aad022bcbc7639412ee10f65c5599a);
+            
+        
+
+        circle_marker_ba811ea3e18811f40ece41e003996155.bindPopup(popup_3067ce4afa58d86d3562f33662b5d1f8)
+        ;
+
+        
+    
+    
+            circle_marker_ba811ea3e18811f40ece41e003996155.bindTooltip(
+                `<div>
+                     Framingham: 5 — tap for details
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_35f769272038b3d33943408af9723a7b = L.circleMarker(
                 [42.353, -71.132],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 12.5, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_4f10b2f338b5fef211a6b324627a25cb = L.popup({
+        var popup_03123d9a137b04c5e2e7658d9015a364 = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_56f024871a1c58a73a0d82af01960648 = $(`<div id="html_56f024871a1c58a73a0d82af01960648" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Allston</b><br><b>5</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_4f10b2f338b5fef211a6b324627a25cb.setContent(html_56f024871a1c58a73a0d82af01960648);
+                var html_b2a06bee3f2b1e8a3f3019d2a6d5d53e = $(`<div id="html_b2a06bee3f2b1e8a3f3019d2a6d5d53e" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Allston</b><br><b>5</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_03123d9a137b04c5e2e7658d9015a364.setContent(html_b2a06bee3f2b1e8a3f3019d2a6d5d53e);
             
         
 
-        circle_marker_a3a9181152f96ac9132555ba8dbc30b5.bindPopup(popup_4f10b2f338b5fef211a6b324627a25cb)
+        circle_marker_35f769272038b3d33943408af9723a7b.bindPopup(popup_03123d9a137b04c5e2e7658d9015a364)
         ;
 
         
     
     
-            circle_marker_a3a9181152f96ac9132555ba8dbc30b5.bindTooltip(
+            circle_marker_35f769272038b3d33943408af9723a7b.bindTooltip(
                 `<div>
                      Allston: 5 — tap for details
                  </div>`,
@@ -669,30 +834,30 @@
             );
         
     
-            var circle_marker_d1d2d246d66ed85b43014db03d3cef0e = L.circleMarker(
+            var circle_marker_9ceecb069902ffd98310636a75b6f253 = L.circleMarker(
                 [42.5751, -70.93],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 12.5, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_8113eaedae0d866dae93c59d903d24c6 = L.popup({
+        var popup_768e1ca0a954d430f096b23094454a7f = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_a28c72fd2b7e2181215aa89f547812dd = $(`<div id="html_a28c72fd2b7e2181215aa89f547812dd" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Danvers</b><br><b>5</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_8113eaedae0d866dae93c59d903d24c6.setContent(html_a28c72fd2b7e2181215aa89f547812dd);
+                var html_47835ec6a8f3ae57e4b5c0801c355168 = $(`<div id="html_47835ec6a8f3ae57e4b5c0801c355168" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Danvers</b><br><b>5</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_768e1ca0a954d430f096b23094454a7f.setContent(html_47835ec6a8f3ae57e4b5c0801c355168);
             
         
 
-        circle_marker_d1d2d246d66ed85b43014db03d3cef0e.bindPopup(popup_8113eaedae0d866dae93c59d903d24c6)
+        circle_marker_9ceecb069902ffd98310636a75b6f253.bindPopup(popup_768e1ca0a954d430f096b23094454a7f)
         ;
 
         
     
     
-            circle_marker_d1d2d246d66ed85b43014db03d3cef0e.bindTooltip(
+            circle_marker_9ceecb069902ffd98310636a75b6f253.bindTooltip(
                 `<div>
                      Danvers: 5 — tap for details
                  </div>`,
@@ -702,32 +867,32 @@
             );
         
     
-            var circle_marker_aee579f61c498c30547840e67e834d49 = L.circleMarker(
-                [42.5195, -70.8967],
+            var circle_marker_0a1e0063e3179cf36e7cf838dc2decb8 = L.circleMarker(
+                [42.2809, -71.2378],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 12.5, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_f916b05531b2d081bea30d2707fdda2f = L.popup({
+        var popup_3a780693944ef7628c6c4c401730520f = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_0f248973266963b1580577f1411067d8 = $(`<div id="html_0f248973266963b1580577f1411067d8" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Salem</b><br><b>5</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_f916b05531b2d081bea30d2707fdda2f.setContent(html_0f248973266963b1580577f1411067d8);
+                var html_0bbf0adeb921b68cd5e2bd68d9cc0bc9 = $(`<div id="html_0bbf0adeb921b68cd5e2bd68d9cc0bc9" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Needham</b><br><b>5</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_3a780693944ef7628c6c4c401730520f.setContent(html_0bbf0adeb921b68cd5e2bd68d9cc0bc9);
             
         
 
-        circle_marker_aee579f61c498c30547840e67e834d49.bindPopup(popup_f916b05531b2d081bea30d2707fdda2f)
+        circle_marker_0a1e0063e3179cf36e7cf838dc2decb8.bindPopup(popup_3a780693944ef7628c6c4c401730520f)
         ;
 
         
     
     
-            circle_marker_aee579f61c498c30547840e67e834d49.bindTooltip(
+            circle_marker_0a1e0063e3179cf36e7cf838dc2decb8.bindTooltip(
                 `<div>
-                     Salem: 5 — tap for details
+                     Needham: 5 — tap for details
                  </div>`,
                 {
   "sticky": true,
@@ -735,63 +900,30 @@
             );
         
     
-            var circle_marker_9ef96e0fda5d38137ca1f4e47ef0e3da = L.circleMarker(
-                [41.7, -71.5],
-                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 12.5, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
-        
-    
-        var popup_62b65f8b9264e0b9bfa5b745be03e48c = L.popup({
-  "maxWidth": 240,
-});
-
-        
-            
-                var html_01d6548bf2b43a81317b34f35bbfba0b = $(`<div id="html_01d6548bf2b43a81317b34f35bbfba0b" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Rhode Island</b><br><b>5</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_62b65f8b9264e0b9bfa5b745be03e48c.setContent(html_01d6548bf2b43a81317b34f35bbfba0b);
-            
-        
-
-        circle_marker_9ef96e0fda5d38137ca1f4e47ef0e3da.bindPopup(popup_62b65f8b9264e0b9bfa5b745be03e48c)
-        ;
-
-        
-    
-    
-            circle_marker_9ef96e0fda5d38137ca1f4e47ef0e3da.bindTooltip(
-                `<div>
-                     Rhode Island: 5 — tap for details
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_a532623b3a0c1b33c58d18a6ac89332d = L.circleMarker(
+            var circle_marker_8dd2409dc8e98ccdbd7bf8052c4515bb = L.circleMarker(
                 [42.7262, -71.1909],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 12.5, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_defbc8a5e47407d3020ec4ea17f3af55 = L.popup({
+        var popup_017e698093686ea98ae82204c819d372 = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_549c781252b7d552388a4d193e84f432 = $(`<div id="html_549c781252b7d552388a4d193e84f432" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Methuen</b><br><b>5</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_defbc8a5e47407d3020ec4ea17f3af55.setContent(html_549c781252b7d552388a4d193e84f432);
+                var html_016903762b9e1fff815b8f0b88ada549 = $(`<div id="html_016903762b9e1fff815b8f0b88ada549" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Methuen</b><br><b>5</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_017e698093686ea98ae82204c819d372.setContent(html_016903762b9e1fff815b8f0b88ada549);
             
         
 
-        circle_marker_a532623b3a0c1b33c58d18a6ac89332d.bindPopup(popup_defbc8a5e47407d3020ec4ea17f3af55)
+        circle_marker_8dd2409dc8e98ccdbd7bf8052c4515bb.bindPopup(popup_017e698093686ea98ae82204c819d372)
         ;
 
         
     
     
-            circle_marker_a532623b3a0c1b33c58d18a6ac89332d.bindTooltip(
+            circle_marker_8dd2409dc8e98ccdbd7bf8052c4515bb.bindTooltip(
                 `<div>
                      Methuen: 5 — tap for details
                  </div>`,
@@ -801,30 +933,96 @@
             );
         
     
-            var circle_marker_d0f49304b3a76c94df738bf6ee6499be = L.circleMarker(
-                [42.2835, -71.3495],
-                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 11.6, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            var circle_marker_651d05b4a03292c9ca89199271176f32 = L.circleMarker(
+                [42.6583, -71.1368],
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 12.5, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_3f295af38862b5f4cca7c6c2a4d729e4 = L.popup({
+        var popup_f1489b08cccbb4e26ad43e4e7207c5c9 = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_4f56ab79c059a1933ab2eaa2039d03b8 = $(`<div id="html_4f56ab79c059a1933ab2eaa2039d03b8" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Natick</b><br><b>4</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_3f295af38862b5f4cca7c6c2a4d729e4.setContent(html_4f56ab79c059a1933ab2eaa2039d03b8);
+                var html_f2dc3a20170dd4d7eb994610c4da14dc = $(`<div id="html_f2dc3a20170dd4d7eb994610c4da14dc" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Andover</b><br><b>5</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_f1489b08cccbb4e26ad43e4e7207c5c9.setContent(html_f2dc3a20170dd4d7eb994610c4da14dc);
             
         
 
-        circle_marker_d0f49304b3a76c94df738bf6ee6499be.bindPopup(popup_3f295af38862b5f4cca7c6c2a4d729e4)
+        circle_marker_651d05b4a03292c9ca89199271176f32.bindPopup(popup_f1489b08cccbb4e26ad43e4e7207c5c9)
         ;
 
         
     
     
-            circle_marker_d0f49304b3a76c94df738bf6ee6499be.bindTooltip(
+            circle_marker_651d05b4a03292c9ca89199271176f32.bindTooltip(
+                `<div>
+                     Andover: 5 — tap for details
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ceccdd9bbde2c4d92ef255eceed9c3da = L.circleMarker(
+                [42.3876, -71.0995],
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 12.5, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
+        
+    
+        var popup_f8ff1264c026a39c1e331dc97507db82 = L.popup({
+  "maxWidth": 240,
+});
+
+        
+            
+                var html_c6f065f2c4d17b3c9771c437c20c4d03 = $(`<div id="html_c6f065f2c4d17b3c9771c437c20c4d03" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Somerville</b><br><b>5</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_f8ff1264c026a39c1e331dc97507db82.setContent(html_c6f065f2c4d17b3c9771c437c20c4d03);
+            
+        
+
+        circle_marker_ceccdd9bbde2c4d92ef255eceed9c3da.bindPopup(popup_f8ff1264c026a39c1e331dc97507db82)
+        ;
+
+        
+    
+    
+            circle_marker_ceccdd9bbde2c4d92ef255eceed9c3da.bindTooltip(
+                `<div>
+                     Somerville: 5 — tap for details
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_22ed2f855bfa54c5e83d791146242b53 = L.circleMarker(
+                [42.2835, -71.3495],
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 11.6, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
+        
+    
+        var popup_c87abb255ccede74387cfe5eeee5317b = L.popup({
+  "maxWidth": 240,
+});
+
+        
+            
+                var html_19c1b9ec0eec45622bc82cda92b7d78d = $(`<div id="html_19c1b9ec0eec45622bc82cda92b7d78d" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Natick</b><br><b>4</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_c87abb255ccede74387cfe5eeee5317b.setContent(html_19c1b9ec0eec45622bc82cda92b7d78d);
+            
+        
+
+        circle_marker_22ed2f855bfa54c5e83d791146242b53.bindPopup(popup_c87abb255ccede74387cfe5eeee5317b)
+        ;
+
+        
+    
+    
+            circle_marker_22ed2f855bfa54c5e83d791146242b53.bindTooltip(
                 `<div>
                      Natick: 4 — tap for details
                  </div>`,
@@ -834,129 +1032,30 @@
             );
         
     
-            var circle_marker_3254e857fe142301f211859a1e222ead = L.circleMarker(
-                [42.2793, -71.4162],
-                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 11.6, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
-        
-    
-        var popup_64bc48f7b50a87f17d190f92277fdf5a = L.popup({
-  "maxWidth": 240,
-});
-
-        
-            
-                var html_e2841afe5fa2a940cde02ab19108e96a = $(`<div id="html_e2841afe5fa2a940cde02ab19108e96a" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Framingham</b><br><b>4</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_64bc48f7b50a87f17d190f92277fdf5a.setContent(html_e2841afe5fa2a940cde02ab19108e96a);
-            
-        
-
-        circle_marker_3254e857fe142301f211859a1e222ead.bindPopup(popup_64bc48f7b50a87f17d190f92277fdf5a)
-        ;
-
-        
-    
-    
-            circle_marker_3254e857fe142301f211859a1e222ead.bindTooltip(
-                `<div>
-                     Framingham: 4 — tap for details
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_03d32bad7bf71285c5e10a4b0a319473 = L.circleMarker(
-                [42.4801, -71.0995],
-                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 11.6, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
-        
-    
-        var popup_60b0c7d7d6bf0d3006adcfe30d446181 = L.popup({
-  "maxWidth": 240,
-});
-
-        
-            
-                var html_067d1f1c0e32fe954ef1f3d942ea9adb = $(`<div id="html_067d1f1c0e32fe954ef1f3d942ea9adb" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Stoneham</b><br><b>4</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_60b0c7d7d6bf0d3006adcfe30d446181.setContent(html_067d1f1c0e32fe954ef1f3d942ea9adb);
-            
-        
-
-        circle_marker_03d32bad7bf71285c5e10a4b0a319473.bindPopup(popup_60b0c7d7d6bf0d3006adcfe30d446181)
-        ;
-
-        
-    
-    
-            circle_marker_03d32bad7bf71285c5e10a4b0a319473.bindTooltip(
-                `<div>
-                     Stoneham: 4 — tap for details
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_4ac91c0f97807ca5634a6b9b4e6d3b8c = L.circleMarker(
-                [42.3318, -71.1212],
-                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 11.6, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
-        
-    
-        var popup_446ce0b2da9c215567af7c68d78d2b13 = L.popup({
-  "maxWidth": 240,
-});
-
-        
-            
-                var html_a58fd76c0a90b8d5013c0fa7ed6f0813 = $(`<div id="html_a58fd76c0a90b8d5013c0fa7ed6f0813" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Brookline</b><br><b>4</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_446ce0b2da9c215567af7c68d78d2b13.setContent(html_a58fd76c0a90b8d5013c0fa7ed6f0813);
-            
-        
-
-        circle_marker_4ac91c0f97807ca5634a6b9b4e6d3b8c.bindPopup(popup_446ce0b2da9c215567af7c68d78d2b13)
-        ;
-
-        
-    
-    
-            circle_marker_4ac91c0f97807ca5634a6b9b4e6d3b8c.bindTooltip(
-                `<div>
-                     Brookline: 4 — tap for details
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_ad4ae5ac999c9ffcdb983a01e41ad344 = L.circleMarker(
+            var circle_marker_de9aed5c828bf42e3c61209feb379041 = L.circleMarker(
                 [42.3959, -71.1786],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 11.6, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_7ba151ee5f977951f2b27dd5c9469d16 = L.popup({
+        var popup_adb1a022b23f2c76fd350fd6f25df51c = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_d465838ab25ebed928ba498146fa27dd = $(`<div id="html_d465838ab25ebed928ba498146fa27dd" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Belmont</b><br><b>4</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_7ba151ee5f977951f2b27dd5c9469d16.setContent(html_d465838ab25ebed928ba498146fa27dd);
+                var html_a457eb7de79f86652f1cb64744760577 = $(`<div id="html_a457eb7de79f86652f1cb64744760577" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Belmont</b><br><b>4</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_adb1a022b23f2c76fd350fd6f25df51c.setContent(html_a457eb7de79f86652f1cb64744760577);
             
         
 
-        circle_marker_ad4ae5ac999c9ffcdb983a01e41ad344.bindPopup(popup_7ba151ee5f977951f2b27dd5c9469d16)
+        circle_marker_de9aed5c828bf42e3c61209feb379041.bindPopup(popup_adb1a022b23f2c76fd350fd6f25df51c)
         ;
 
         
     
     
-            circle_marker_ad4ae5ac999c9ffcdb983a01e41ad344.bindTooltip(
+            circle_marker_de9aed5c828bf42e3c61209feb379041.bindTooltip(
                 `<div>
                      Belmont: 4 — tap for details
                  </div>`,
@@ -966,30 +1065,96 @@
             );
         
     
-            var circle_marker_995a0ba0d9f1ddefa775777071895700 = L.circleMarker(
-                [42.5751, -71.0787],
+            var circle_marker_70e80a8dd839ddd7d0ef2ebdd38d9982 = L.circleMarker(
+                [42.2968, -71.2924],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 11.6, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_531658a6b8f98486d16ebad1ab16e35b = L.popup({
+        var popup_d9876405c3b45aee03ec7c48e17c6f1f = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_0cd9f494dcbee50e4c84dbf80bff331a = $(`<div id="html_0cd9f494dcbee50e4c84dbf80bff331a" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>North Reading</b><br><b>4</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_531658a6b8f98486d16ebad1ab16e35b.setContent(html_0cd9f494dcbee50e4c84dbf80bff331a);
+                var html_b66a7968bc9b437e811a00626208b375 = $(`<div id="html_b66a7968bc9b437e811a00626208b375" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Wellesley</b><br><b>4</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_d9876405c3b45aee03ec7c48e17c6f1f.setContent(html_b66a7968bc9b437e811a00626208b375);
             
         
 
-        circle_marker_995a0ba0d9f1ddefa775777071895700.bindPopup(popup_531658a6b8f98486d16ebad1ab16e35b)
+        circle_marker_70e80a8dd839ddd7d0ef2ebdd38d9982.bindPopup(popup_d9876405c3b45aee03ec7c48e17c6f1f)
         ;
 
         
     
     
-            circle_marker_995a0ba0d9f1ddefa775777071895700.bindTooltip(
+            circle_marker_70e80a8dd839ddd7d0ef2ebdd38d9982.bindTooltip(
+                `<div>
+                     Wellesley: 4 — tap for details
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3385d01e828be33a6fc2f6e2c764a566 = L.circleMarker(
+                [42.4851, -71.4328],
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 11.6, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
+        
+    
+        var popup_04403734350a9faab9cfc15439af18b5 = L.popup({
+  "maxWidth": 240,
+});
+
+        
+            
+                var html_9093be427342d280bb813d976bbb8718 = $(`<div id="html_9093be427342d280bb813d976bbb8718" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Acton</b><br><b>4</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_04403734350a9faab9cfc15439af18b5.setContent(html_9093be427342d280bb813d976bbb8718);
+            
+        
+
+        circle_marker_3385d01e828be33a6fc2f6e2c764a566.bindPopup(popup_04403734350a9faab9cfc15439af18b5)
+        ;
+
+        
+    
+    
+            circle_marker_3385d01e828be33a6fc2f6e2c764a566.bindTooltip(
+                `<div>
+                     Acton: 4 — tap for details
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0f03bf36eb657da575d9969b48436f80 = L.circleMarker(
+                [42.5751, -71.0787],
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 11.6, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
+        
+    
+        var popup_36d422a558af3c16511392ea319350c5 = L.popup({
+  "maxWidth": 240,
+});
+
+        
+            
+                var html_6baf75aa9470b43815aba6b4bffec0ab = $(`<div id="html_6baf75aa9470b43815aba6b4bffec0ab" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>North Reading</b><br><b>4</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_36d422a558af3c16511392ea319350c5.setContent(html_6baf75aa9470b43815aba6b4bffec0ab);
+            
+        
+
+        circle_marker_0f03bf36eb657da575d9969b48436f80.bindPopup(popup_36d422a558af3c16511392ea319350c5)
+        ;
+
+        
+    
+    
+            circle_marker_0f03bf36eb657da575d9969b48436f80.bindTooltip(
                 `<div>
                      North Reading: 4 — tap for details
                  </div>`,
@@ -999,32 +1164,32 @@
             );
         
     
-            var circle_marker_9f5c39ee254130eede1f0b8d28dfc8ed = L.circleMarker(
-                [42.3876, -71.0995],
+            var circle_marker_fc07b7cca3b4b70f633b4dabab223f3a = L.circleMarker(
+                [41.9584, -70.6673],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 11.6, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_df33305fe24b56e0622da8bc2c2d289a = L.popup({
+        var popup_76a5ba5641441acb0081776870ca9a7f = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_9820980979d83d7535e715a4f5ee4d27 = $(`<div id="html_9820980979d83d7535e715a4f5ee4d27" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Somerville</b><br><b>4</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_df33305fe24b56e0622da8bc2c2d289a.setContent(html_9820980979d83d7535e715a4f5ee4d27);
+                var html_3cb7f36d5a4d58c8026ae9ad7ecba5f9 = $(`<div id="html_3cb7f36d5a4d58c8026ae9ad7ecba5f9" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Plymouth</b><br><b>4</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_76a5ba5641441acb0081776870ca9a7f.setContent(html_3cb7f36d5a4d58c8026ae9ad7ecba5f9);
             
         
 
-        circle_marker_9f5c39ee254130eede1f0b8d28dfc8ed.bindPopup(popup_df33305fe24b56e0622da8bc2c2d289a)
+        circle_marker_fc07b7cca3b4b70f633b4dabab223f3a.bindPopup(popup_76a5ba5641441acb0081776870ca9a7f)
         ;
 
         
     
     
-            circle_marker_9f5c39ee254130eede1f0b8d28dfc8ed.bindTooltip(
+            circle_marker_fc07b7cca3b4b70f633b4dabab223f3a.bindTooltip(
                 `<div>
-                     Somerville: 4 — tap for details
+                     Plymouth: 4 — tap for details
                  </div>`,
                 {
   "sticky": true,
@@ -1032,30 +1197,30 @@
             );
         
     
-            var circle_marker_31355491f40c6dd9a9de9e338a56dc86 = L.circleMarker(
+            var circle_marker_c4b05a044191ca065959b8427d39cabf = L.circleMarker(
                 [42.6106, -71.2342],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 10.7, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_b40d295d276f4fc801a013b580bb5400 = L.popup({
+        var popup_d8c2c3965be3177fcc96e9c07e87999e = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_5866c70a328eca9d0336b0dd015e42bb = $(`<div id="html_5866c70a328eca9d0336b0dd015e42bb" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Tewksbury</b><br><b>3</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_b40d295d276f4fc801a013b580bb5400.setContent(html_5866c70a328eca9d0336b0dd015e42bb);
+                var html_e6d3a72e3533274dc0bd0f9aa71cea04 = $(`<div id="html_e6d3a72e3533274dc0bd0f9aa71cea04" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Tewksbury</b><br><b>3</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_d8c2c3965be3177fcc96e9c07e87999e.setContent(html_e6d3a72e3533274dc0bd0f9aa71cea04);
             
         
 
-        circle_marker_31355491f40c6dd9a9de9e338a56dc86.bindPopup(popup_b40d295d276f4fc801a013b580bb5400)
+        circle_marker_c4b05a044191ca065959b8427d39cabf.bindPopup(popup_d8c2c3965be3177fcc96e9c07e87999e)
         ;
 
         
     
     
-            circle_marker_31355491f40c6dd9a9de9e338a56dc86.bindTooltip(
+            circle_marker_c4b05a044191ca065959b8427d39cabf.bindTooltip(
                 `<div>
                      Tewksbury: 3 — tap for details
                  </div>`,
@@ -1065,30 +1230,30 @@
             );
         
     
-            var circle_marker_153cdca4e5917924dada12a5a90fc183 = L.circleMarker(
+            var circle_marker_aac348085c5a42b61e19422b10bf13d7 = L.circleMarker(
                 [42.0834, -71.3967],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 10.7, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_dd1a0427ba382e16f1c1feed49d94690 = L.popup({
+        var popup_01456c0c6959972a2a5a78a00ccf13c3 = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_d3e2d3a3f3837c90c40ae4f9116de62e = $(`<div id="html_d3e2d3a3f3837c90c40ae4f9116de62e" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Franklin</b><br><b>3</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_dd1a0427ba382e16f1c1feed49d94690.setContent(html_d3e2d3a3f3837c90c40ae4f9116de62e);
+                var html_23727a139ce465d1c4e5b15ffd98b30e = $(`<div id="html_23727a139ce465d1c4e5b15ffd98b30e" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Franklin</b><br><b>3</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_01456c0c6959972a2a5a78a00ccf13c3.setContent(html_23727a139ce465d1c4e5b15ffd98b30e);
             
         
 
-        circle_marker_153cdca4e5917924dada12a5a90fc183.bindPopup(popup_dd1a0427ba382e16f1c1feed49d94690)
+        circle_marker_aac348085c5a42b61e19422b10bf13d7.bindPopup(popup_01456c0c6959972a2a5a78a00ccf13c3)
         ;
 
         
     
     
-            circle_marker_153cdca4e5917924dada12a5a90fc183.bindTooltip(
+            circle_marker_aac348085c5a42b61e19422b10bf13d7.bindTooltip(
                 `<div>
                      Franklin: 3 — tap for details
                  </div>`,
@@ -1098,63 +1263,30 @@
             );
         
     
-            var circle_marker_68466353f65170b1066009965e872405 = L.circleMarker(
-                [42.2809, -71.2378],
-                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 10.7, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
-        
-    
-        var popup_75c76711d1e90f98dd060ad50a66d54a = L.popup({
-  "maxWidth": 240,
-});
-
-        
-            
-                var html_9d06bcd57cb1d4e5f17fa7efb7e2218a = $(`<div id="html_9d06bcd57cb1d4e5f17fa7efb7e2218a" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Needham</b><br><b>3</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_75c76711d1e90f98dd060ad50a66d54a.setContent(html_9d06bcd57cb1d4e5f17fa7efb7e2218a);
-            
-        
-
-        circle_marker_68466353f65170b1066009965e872405.bindPopup(popup_75c76711d1e90f98dd060ad50a66d54a)
-        ;
-
-        
-    
-    
-            circle_marker_68466353f65170b1066009965e872405.bindTooltip(
-                `<div>
-                     Needham: 3 — tap for details
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_1384f4d7b641e7d4f784446c0f246c19 = L.circleMarker(
+            var circle_marker_2f37c73945fdef66b87c821f1adddd88 = L.circleMarker(
                 [42.6792, -70.8412],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 10.7, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_fd65aabea9a45f53780060e0803783a4 = L.popup({
+        var popup_ff7393b370334239b83de922db7f51b3 = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_4b4b35effa3a2df789eaa7c2e374c314 = $(`<div id="html_4b4b35effa3a2df789eaa7c2e374c314" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Ipswich</b><br><b>3</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_fd65aabea9a45f53780060e0803783a4.setContent(html_4b4b35effa3a2df789eaa7c2e374c314);
+                var html_e85d16b857fc5da07b02b8fac46ce468 = $(`<div id="html_e85d16b857fc5da07b02b8fac46ce468" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Ipswich</b><br><b>3</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_ff7393b370334239b83de922db7f51b3.setContent(html_e85d16b857fc5da07b02b8fac46ce468);
             
         
 
-        circle_marker_1384f4d7b641e7d4f784446c0f246c19.bindPopup(popup_fd65aabea9a45f53780060e0803783a4)
+        circle_marker_2f37c73945fdef66b87c821f1adddd88.bindPopup(popup_ff7393b370334239b83de922db7f51b3)
         ;
 
         
     
     
-            circle_marker_1384f4d7b641e7d4f784446c0f246c19.bindTooltip(
+            circle_marker_2f37c73945fdef66b87c821f1adddd88.bindTooltip(
                 `<div>
                      Ipswich: 3 — tap for details
                  </div>`,
@@ -1164,30 +1296,30 @@
             );
         
     
-            var circle_marker_6ebbe873fa9a702249e837f9e7d55b9d = L.circleMarker(
+            var circle_marker_f9811c36c68a67f8fbe21ad097c6b929 = L.circleMarker(
                 [42.5465, -71.1734],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 10.7, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_968e91e4edc54c1f6dc1b4e761323b3d = L.popup({
+        var popup_f92a5481c839b6ec9db3d6e306a83115 = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_e060d1f63ac69bfee5824f6488ecca30 = $(`<div id="html_e060d1f63ac69bfee5824f6488ecca30" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Wilmington</b><br><b>3</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_968e91e4edc54c1f6dc1b4e761323b3d.setContent(html_e060d1f63ac69bfee5824f6488ecca30);
+                var html_5b78517ef2c60942682f8e94d05136f6 = $(`<div id="html_5b78517ef2c60942682f8e94d05136f6" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Wilmington</b><br><b>3</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_f92a5481c839b6ec9db3d6e306a83115.setContent(html_5b78517ef2c60942682f8e94d05136f6);
             
         
 
-        circle_marker_6ebbe873fa9a702249e837f9e7d55b9d.bindPopup(popup_968e91e4edc54c1f6dc1b4e761323b3d)
+        circle_marker_f9811c36c68a67f8fbe21ad097c6b929.bindPopup(popup_f92a5481c839b6ec9db3d6e306a83115)
         ;
 
         
     
     
-            circle_marker_6ebbe873fa9a702249e837f9e7d55b9d.bindTooltip(
+            circle_marker_f9811c36c68a67f8fbe21ad097c6b929.bindTooltip(
                 `<div>
                      Wilmington: 3 — tap for details
                  </div>`,
@@ -1197,63 +1329,30 @@
             );
         
     
-            var circle_marker_b4dcebb4aae03e5d3599f288554e05ec = L.circleMarker(
-                [42.2968, -71.2924],
-                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 10.7, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
-        
-    
-        var popup_9bfc03cfc9125fe30ac15741cabc7750 = L.popup({
-  "maxWidth": 240,
-});
-
-        
-            
-                var html_7f1d85022f8a3c9fd86b27fab5e2a9c0 = $(`<div id="html_7f1d85022f8a3c9fd86b27fab5e2a9c0" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Wellesley</b><br><b>3</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_9bfc03cfc9125fe30ac15741cabc7750.setContent(html_7f1d85022f8a3c9fd86b27fab5e2a9c0);
-            
-        
-
-        circle_marker_b4dcebb4aae03e5d3599f288554e05ec.bindPopup(popup_9bfc03cfc9125fe30ac15741cabc7750)
-        ;
-
-        
-    
-    
-            circle_marker_b4dcebb4aae03e5d3599f288554e05ec.bindTooltip(
-                `<div>
-                     Wellesley: 3 — tap for details
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_7e8a3655722babadaecfbc141dbf2c8e = L.circleMarker(
+            var circle_marker_c4c2143c01fb8a4ec2333442cae4c2fd = L.circleMarker(
                 [42.4523, -71.137],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 10.7, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_21c3ad8a329857b2309671d6102da414 = L.popup({
+        var popup_544da592ad1228e812de023303525176 = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_cbafea139eec036fe596ac8aad0cfd3f = $(`<div id="html_cbafea139eec036fe596ac8aad0cfd3f" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Winchester</b><br><b>3</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_21c3ad8a329857b2309671d6102da414.setContent(html_cbafea139eec036fe596ac8aad0cfd3f);
+                var html_712acc4a27d87c1eaa4ab2c373f8e6a5 = $(`<div id="html_712acc4a27d87c1eaa4ab2c373f8e6a5" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Winchester</b><br><b>3</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_544da592ad1228e812de023303525176.setContent(html_712acc4a27d87c1eaa4ab2c373f8e6a5);
             
         
 
-        circle_marker_7e8a3655722babadaecfbc141dbf2c8e.bindPopup(popup_21c3ad8a329857b2309671d6102da414)
+        circle_marker_c4c2143c01fb8a4ec2333442cae4c2fd.bindPopup(popup_544da592ad1228e812de023303525176)
         ;
 
         
     
     
-            circle_marker_7e8a3655722babadaecfbc141dbf2c8e.bindTooltip(
+            circle_marker_c4c2143c01fb8a4ec2333442cae4c2fd.bindTooltip(
                 `<div>
                      Winchester: 3 — tap for details
                  </div>`,
@@ -1263,96 +1362,30 @@
             );
         
     
-            var circle_marker_11d35b844be42ee8a9e1288e78c26df9 = L.circleMarker(
-                [42.7762, -71.0773],
-                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 10.7, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
-        
-    
-        var popup_c7e19a5b2f551e4f97694ce4ec2e56aa = L.popup({
-  "maxWidth": 240,
-});
-
-        
-            
-                var html_6968958189ae185bb2bcf91b5b9f43e4 = $(`<div id="html_6968958189ae185bb2bcf91b5b9f43e4" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Haverhill</b><br><b>3</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_c7e19a5b2f551e4f97694ce4ec2e56aa.setContent(html_6968958189ae185bb2bcf91b5b9f43e4);
-            
-        
-
-        circle_marker_11d35b844be42ee8a9e1288e78c26df9.bindPopup(popup_c7e19a5b2f551e4f97694ce4ec2e56aa)
-        ;
-
-        
-    
-    
-            circle_marker_11d35b844be42ee8a9e1288e78c26df9.bindTooltip(
-                `<div>
-                     Haverhill: 3 — tap for details
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_dc713f75ca45496a20d42596ee355424 = L.circleMarker(
-                [42.4851, -71.4328],
-                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 10.7, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
-        
-    
-        var popup_73303938d6e0b7c398110127c2f66e2c = L.popup({
-  "maxWidth": 240,
-});
-
-        
-            
-                var html_c432b3cb4704c5c5dee08def92706c4b = $(`<div id="html_c432b3cb4704c5c5dee08def92706c4b" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Acton</b><br><b>3</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_73303938d6e0b7c398110127c2f66e2c.setContent(html_c432b3cb4704c5c5dee08def92706c4b);
-            
-        
-
-        circle_marker_dc713f75ca45496a20d42596ee355424.bindPopup(popup_73303938d6e0b7c398110127c2f66e2c)
-        ;
-
-        
-    
-    
-            circle_marker_dc713f75ca45496a20d42596ee355424.bindTooltip(
-                `<div>
-                     Acton: 3 — tap for details
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_d1f6e42e7a7a3e5c80348241670efe62 = L.circleMarker(
+            var circle_marker_5fd3a40d19c11b722505c9f284845fa3 = L.circleMarker(
                 [42.6334, -71.3162],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 10.7, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_f50ffa5eaa09bcc78d6edef005d43cc4 = L.popup({
+        var popup_254d072ceda06e1bd30ab9c4982aee14 = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_df15964a4b099d40d3cf6b0d5f60da8f = $(`<div id="html_df15964a4b099d40d3cf6b0d5f60da8f" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Lowell</b><br><b>3</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_f50ffa5eaa09bcc78d6edef005d43cc4.setContent(html_df15964a4b099d40d3cf6b0d5f60da8f);
+                var html_9c12d046980c24be3dcabf5bcb741e83 = $(`<div id="html_9c12d046980c24be3dcabf5bcb741e83" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Lowell</b><br><b>3</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_254d072ceda06e1bd30ab9c4982aee14.setContent(html_9c12d046980c24be3dcabf5bcb741e83);
             
         
 
-        circle_marker_d1f6e42e7a7a3e5c80348241670efe62.bindPopup(popup_f50ffa5eaa09bcc78d6edef005d43cc4)
+        circle_marker_5fd3a40d19c11b722505c9f284845fa3.bindPopup(popup_254d072ceda06e1bd30ab9c4982aee14)
         ;
 
         
     
     
-            circle_marker_d1f6e42e7a7a3e5c80348241670efe62.bindTooltip(
+            circle_marker_5fd3a40d19c11b722505c9f284845fa3.bindTooltip(
                 `<div>
                      Lowell: 3 — tap for details
                  </div>`,
@@ -1362,30 +1395,30 @@
             );
         
     
-            var circle_marker_a1b3da2c2778798a36ff615a91aaea79 = L.circleMarker(
+            var circle_marker_49378f8a79890edb480544bac6a8ee5d = L.circleMarker(
                 [42.4906, -71.2761],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 10.7, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_08b2d6691a5942c76816264978a5a6af = L.popup({
+        var popup_53fa86c3701108d34477870d4870d505 = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_12b24f1c2d76596747e001d1cabb7141 = $(`<div id="html_12b24f1c2d76596747e001d1cabb7141" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Bedford</b><br><b>3</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_08b2d6691a5942c76816264978a5a6af.setContent(html_12b24f1c2d76596747e001d1cabb7141);
+                var html_0fe030a285f8c98b7bbaee643dbb7e87 = $(`<div id="html_0fe030a285f8c98b7bbaee643dbb7e87" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Bedford</b><br><b>3</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_53fa86c3701108d34477870d4870d505.setContent(html_0fe030a285f8c98b7bbaee643dbb7e87);
             
         
 
-        circle_marker_a1b3da2c2778798a36ff615a91aaea79.bindPopup(popup_08b2d6691a5942c76816264978a5a6af)
+        circle_marker_49378f8a79890edb480544bac6a8ee5d.bindPopup(popup_53fa86c3701108d34477870d4870d505)
         ;
 
         
     
     
-            circle_marker_a1b3da2c2778798a36ff615a91aaea79.bindTooltip(
+            circle_marker_49378f8a79890edb480544bac6a8ee5d.bindTooltip(
                 `<div>
                      Bedford: 3 — tap for details
                  </div>`,
@@ -1395,32 +1428,32 @@
             );
         
     
-            var circle_marker_663ae29abf195d49ac1308632c183207 = L.circleMarker(
-                [42.6583, -71.1368],
+            var circle_marker_b5405e22fed4fd34b4a362b5929dc2d2 = L.circleMarker(
+                [42.4654, -71.0107],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 10.7, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_8f5538a87d1ece24ae75582f1d629795 = L.popup({
+        var popup_e2b1ad92f39df4c6bc20395a59e4672d = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_517c28b6c703fe229dc8204baa75ffaf = $(`<div id="html_517c28b6c703fe229dc8204baa75ffaf" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Andover</b><br><b>3</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_8f5538a87d1ece24ae75582f1d629795.setContent(html_517c28b6c703fe229dc8204baa75ffaf);
+                var html_2fb1f56ab25cd43ebbeff1e31bbd2eb6 = $(`<div id="html_2fb1f56ab25cd43ebbeff1e31bbd2eb6" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Saugus</b><br><b>3</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_e2b1ad92f39df4c6bc20395a59e4672d.setContent(html_2fb1f56ab25cd43ebbeff1e31bbd2eb6);
             
         
 
-        circle_marker_663ae29abf195d49ac1308632c183207.bindPopup(popup_8f5538a87d1ece24ae75582f1d629795)
+        circle_marker_b5405e22fed4fd34b4a362b5929dc2d2.bindPopup(popup_e2b1ad92f39df4c6bc20395a59e4672d)
         ;
 
         
     
     
-            circle_marker_663ae29abf195d49ac1308632c183207.bindTooltip(
+            circle_marker_b5405e22fed4fd34b4a362b5929dc2d2.bindTooltip(
                 `<div>
-                     Andover: 3 — tap for details
+                     Saugus: 3 — tap for details
                  </div>`,
                 {
   "sticky": true,
@@ -1428,30 +1461,30 @@
             );
         
     
-            var circle_marker_6ede978ada557831449c00b401ba516a = L.circleMarker(
+            var circle_marker_e78016c367f6af33f624293e84b94026 = L.circleMarker(
                 [42.4084, -71.012],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 10.7, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_8a82af9924af24618b6a45377f0651cf = L.popup({
+        var popup_56bd52ff2d008dbc258c8b87616df371 = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_985cdf05d500eedcaf1122128b7d6e55 = $(`<div id="html_985cdf05d500eedcaf1122128b7d6e55" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Revere</b><br><b>3</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_8a82af9924af24618b6a45377f0651cf.setContent(html_985cdf05d500eedcaf1122128b7d6e55);
+                var html_c4327f5957c5b9e85854185419fe8642 = $(`<div id="html_c4327f5957c5b9e85854185419fe8642" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Revere</b><br><b>3</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_56bd52ff2d008dbc258c8b87616df371.setContent(html_c4327f5957c5b9e85854185419fe8642);
             
         
 
-        circle_marker_6ede978ada557831449c00b401ba516a.bindPopup(popup_8a82af9924af24618b6a45377f0651cf)
+        circle_marker_e78016c367f6af33f624293e84b94026.bindPopup(popup_56bd52ff2d008dbc258c8b87616df371)
         ;
 
         
     
     
-            circle_marker_6ede978ada557831449c00b401ba516a.bindTooltip(
+            circle_marker_e78016c367f6af33f624293e84b94026.bindTooltip(
                 `<div>
                      Revere: 3 — tap for details
                  </div>`,
@@ -1461,30 +1494,63 @@
             );
         
     
-            var circle_marker_37b41f07dfac28e25d9855ec688b7c30 = L.circleMarker(
-                [42.443, -71.229],
+            var circle_marker_b0e9c6cb1c9221f2972eefdf332b3cb0 = L.circleMarker(
+                [42.4084, -71.0537],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 10.7, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_e78e5131496d70f2161e655669da2a24 = L.popup({
+        var popup_cd7907926bcd4fb4cd4fec58ebcf5d78 = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_a67459b6cfd2d7fbb02378f3f82c5829 = $(`<div id="html_a67459b6cfd2d7fbb02378f3f82c5829" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Lexington</b><br><b>3</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_e78e5131496d70f2161e655669da2a24.setContent(html_a67459b6cfd2d7fbb02378f3f82c5829);
+                var html_a53205c3149f437ede81347db7fe1cb4 = $(`<div id="html_a53205c3149f437ede81347db7fe1cb4" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Everett</b><br><b>3</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_cd7907926bcd4fb4cd4fec58ebcf5d78.setContent(html_a53205c3149f437ede81347db7fe1cb4);
             
         
 
-        circle_marker_37b41f07dfac28e25d9855ec688b7c30.bindPopup(popup_e78e5131496d70f2161e655669da2a24)
+        circle_marker_b0e9c6cb1c9221f2972eefdf332b3cb0.bindPopup(popup_cd7907926bcd4fb4cd4fec58ebcf5d78)
         ;
 
         
     
     
-            circle_marker_37b41f07dfac28e25d9855ec688b7c30.bindTooltip(
+            circle_marker_b0e9c6cb1c9221f2972eefdf332b3cb0.bindTooltip(
+                `<div>
+                     Everett: 3 — tap for details
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0efef4b9a2fe4673775ce8c731bc620a = L.circleMarker(
+                [42.443, -71.229],
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 10.7, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
+        
+    
+        var popup_53c06314205c54b207cf92c76368871e = L.popup({
+  "maxWidth": 240,
+});
+
+        
+            
+                var html_c87006ee5767e12eb2658d8bd4c41bc8 = $(`<div id="html_c87006ee5767e12eb2658d8bd4c41bc8" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Lexington</b><br><b>3</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_53c06314205c54b207cf92c76368871e.setContent(html_c87006ee5767e12eb2658d8bd4c41bc8);
+            
+        
+
+        circle_marker_0efef4b9a2fe4673775ce8c731bc620a.bindPopup(popup_53c06314205c54b207cf92c76368871e)
+        ;
+
+        
+    
+    
+            circle_marker_0efef4b9a2fe4673775ce8c731bc620a.bindTooltip(
                 `<div>
                      Lexington: 3 — tap for details
                  </div>`,
@@ -1494,30 +1560,30 @@
             );
         
     
-            var circle_marker_dfbd6af75bd891ae81d58da090290d87 = L.circleMarker(
+            var circle_marker_13ae9acaad30bd4a3939fe4fda75aefb = L.circleMarker(
                 [42.1418, -71.2495],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 9.8, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_bfb246b7ff21bc35299883497808ead6 = L.popup({
+        var popup_b2b908b529c95b003a7d7000fde99364 = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_6226dca9f0740d5a5c88dc8db24dc2f7 = $(`<div id="html_6226dca9f0740d5a5c88dc8db24dc2f7" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Walpole</b><br><b>2</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_bfb246b7ff21bc35299883497808ead6.setContent(html_6226dca9f0740d5a5c88dc8db24dc2f7);
+                var html_15d7d7eb1a1e5825abd9be36b01da229 = $(`<div id="html_15d7d7eb1a1e5825abd9be36b01da229" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Walpole</b><br><b>2</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_b2b908b529c95b003a7d7000fde99364.setContent(html_15d7d7eb1a1e5825abd9be36b01da229);
             
         
 
-        circle_marker_dfbd6af75bd891ae81d58da090290d87.bindPopup(popup_bfb246b7ff21bc35299883497808ead6)
+        circle_marker_13ae9acaad30bd4a3939fe4fda75aefb.bindPopup(popup_b2b908b529c95b003a7d7000fde99364)
         ;
 
         
     
     
-            circle_marker_dfbd6af75bd891ae81d58da090290d87.bindTooltip(
+            circle_marker_13ae9acaad30bd4a3939fe4fda75aefb.bindTooltip(
                 `<div>
                      Walpole: 2 — tap for details
                  </div>`,
@@ -1527,32 +1593,32 @@
             );
         
     
-            var circle_marker_c47fccdaf61953a7e6b9fbb1b7d990b5 = L.circleMarker(
-                [42.4654, -71.0107],
+            var circle_marker_976d9fe9384b16a41413bc1857ed1aae = L.circleMarker(
+                [41.9445, -71.2856],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 9.8, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_553d1a687502446cbb3b18faed445819 = L.popup({
+        var popup_149c573e04c4cac4916fb606c2ebfdb9 = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_834b1474dd80cba7319c00c5d15e1369 = $(`<div id="html_834b1474dd80cba7319c00c5d15e1369" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Saugus</b><br><b>2</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_553d1a687502446cbb3b18faed445819.setContent(html_834b1474dd80cba7319c00c5d15e1369);
+                var html_4201c14520d148ed997e5b2d4219d3e0 = $(`<div id="html_4201c14520d148ed997e5b2d4219d3e0" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Attleboro</b><br><b>2</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_149c573e04c4cac4916fb606c2ebfdb9.setContent(html_4201c14520d148ed997e5b2d4219d3e0);
             
         
 
-        circle_marker_c47fccdaf61953a7e6b9fbb1b7d990b5.bindPopup(popup_553d1a687502446cbb3b18faed445819)
+        circle_marker_976d9fe9384b16a41413bc1857ed1aae.bindPopup(popup_149c573e04c4cac4916fb606c2ebfdb9)
         ;
 
         
     
     
-            circle_marker_c47fccdaf61953a7e6b9fbb1b7d990b5.bindTooltip(
+            circle_marker_976d9fe9384b16a41413bc1857ed1aae.bindTooltip(
                 `<div>
-                     Saugus: 2 — tap for details
+                     Attleboro: 2 — tap for details
                  </div>`,
                 {
   "sticky": true,
@@ -1560,30 +1626,30 @@
             );
         
     
-            var circle_marker_cd9a17ea48afe63ae18c9a1a278a4634 = L.circleMarker(
+            var circle_marker_e9890ff7c5777bed496ca64f5cc3d6e7 = L.circleMarker(
                 [42.539, -71.0426],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 9.8, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_f436fc6a1041c94ffe0c4b9a16dd8648 = L.popup({
+        var popup_fbd526bd2c96d469b689af45d89e5f05 = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_5ae1d495fc2f4b25163eb8154509a6cc = $(`<div id="html_5ae1d495fc2f4b25163eb8154509a6cc" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Lynnfield</b><br><b>2</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_f436fc6a1041c94ffe0c4b9a16dd8648.setContent(html_5ae1d495fc2f4b25163eb8154509a6cc);
+                var html_e43086ee5f2561fd09b4e250fc628d49 = $(`<div id="html_e43086ee5f2561fd09b4e250fc628d49" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Lynnfield</b><br><b>2</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_fbd526bd2c96d469b689af45d89e5f05.setContent(html_e43086ee5f2561fd09b4e250fc628d49);
             
         
 
-        circle_marker_cd9a17ea48afe63ae18c9a1a278a4634.bindPopup(popup_f436fc6a1041c94ffe0c4b9a16dd8648)
+        circle_marker_e9890ff7c5777bed496ca64f5cc3d6e7.bindPopup(popup_fbd526bd2c96d469b689af45d89e5f05)
         ;
 
         
     
     
-            circle_marker_cd9a17ea48afe63ae18c9a1a278a4634.bindTooltip(
+            circle_marker_e9890ff7c5777bed496ca64f5cc3d6e7.bindTooltip(
                 `<div>
                      Lynnfield: 2 — tap for details
                  </div>`,
@@ -1593,63 +1659,30 @@
             );
         
     
-            var circle_marker_fd20383f6b3a3adaef785dacc840b558 = L.circleMarker(
-                [42.4604, -71.3489],
-                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 9.8, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
-        
-    
-        var popup_032e2b26b26aecf763653163d91c00ea = L.popup({
-  "maxWidth": 240,
-});
-
-        
-            
-                var html_e87e62eb767243f32db83d8af2115600 = $(`<div id="html_e87e62eb767243f32db83d8af2115600" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Concord</b><br><b>2</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_032e2b26b26aecf763653163d91c00ea.setContent(html_e87e62eb767243f32db83d8af2115600);
-            
-        
-
-        circle_marker_fd20383f6b3a3adaef785dacc840b558.bindPopup(popup_032e2b26b26aecf763653163d91c00ea)
-        ;
-
-        
-    
-    
-            circle_marker_fd20383f6b3a3adaef785dacc840b558.bindTooltip(
-                `<div>
-                     Concord: 2 — tap for details
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_098cc22cb837fc06d214cc420013bbb9 = L.circleMarker(
+            var circle_marker_433192862bc7ee1d50b31457f46e6a7e = L.circleMarker(
                 [42.1876, -71.3062],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 9.8, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_bf4a5e45bbf9b839989b9dbe02285404 = L.popup({
+        var popup_c2e56d818f6ed22b8c2d60b0d756eb9b = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_587e1393639c06ce6ff4e372a103eadf = $(`<div id="html_587e1393639c06ce6ff4e372a103eadf" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Medfield</b><br><b>2</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_bf4a5e45bbf9b839989b9dbe02285404.setContent(html_587e1393639c06ce6ff4e372a103eadf);
+                var html_49ab1cc326a8b928a258dcd7fa6df3d1 = $(`<div id="html_49ab1cc326a8b928a258dcd7fa6df3d1" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Medfield</b><br><b>2</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_c2e56d818f6ed22b8c2d60b0d756eb9b.setContent(html_49ab1cc326a8b928a258dcd7fa6df3d1);
             
         
 
-        circle_marker_098cc22cb837fc06d214cc420013bbb9.bindPopup(popup_bf4a5e45bbf9b839989b9dbe02285404)
+        circle_marker_433192862bc7ee1d50b31457f46e6a7e.bindPopup(popup_c2e56d818f6ed22b8c2d60b0d756eb9b)
         ;
 
         
     
     
-            circle_marker_098cc22cb837fc06d214cc420013bbb9.bindTooltip(
+            circle_marker_433192862bc7ee1d50b31457f46e6a7e.bindTooltip(
                 `<div>
                      Medfield: 2 — tap for details
                  </div>`,
@@ -1659,30 +1692,30 @@
             );
         
     
-            var circle_marker_220b5cef642b58be59eed85f110b0bcd = L.circleMarker(
+            var circle_marker_02f30e2adb01dae6dfe60d8e3bf861c5 = L.circleMarker(
                 [42.1945, -71.1995],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 9.8, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_36540506f0db966d6dcd340a1765ae9f = L.popup({
+        var popup_e495bbd9eda97c190f4ff35d073041d4 = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_3151d1d160f2cf75bbda9fd64a41c747 = $(`<div id="html_3151d1d160f2cf75bbda9fd64a41c747" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Norwood</b><br><b>2</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_36540506f0db966d6dcd340a1765ae9f.setContent(html_3151d1d160f2cf75bbda9fd64a41c747);
+                var html_23a3d32dcb326c03c7aed74b9da6ccae = $(`<div id="html_23a3d32dcb326c03c7aed74b9da6ccae" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Norwood</b><br><b>2</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_e495bbd9eda97c190f4ff35d073041d4.setContent(html_23a3d32dcb326c03c7aed74b9da6ccae);
             
         
 
-        circle_marker_220b5cef642b58be59eed85f110b0bcd.bindPopup(popup_36540506f0db966d6dcd340a1765ae9f)
+        circle_marker_02f30e2adb01dae6dfe60d8e3bf861c5.bindPopup(popup_e495bbd9eda97c190f4ff35d073041d4)
         ;
 
         
     
     
-            circle_marker_220b5cef642b58be59eed85f110b0bcd.bindTooltip(
+            circle_marker_02f30e2adb01dae6dfe60d8e3bf861c5.bindTooltip(
                 `<div>
                      Norwood: 2 — tap for details
                  </div>`,
@@ -1692,30 +1725,30 @@
             );
         
     
-            var circle_marker_1b4fd4eb7f851309261eb47adbdd6faf = L.circleMarker(
+            var circle_marker_648cc10f66516c05fe4c9e207ffa0f1a = L.circleMarker(
                 [42.2418, -71.1662],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 9.8, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_ea0e1a5684fe1c55ea4cdb59b8b532f0 = L.popup({
+        var popup_4d5b43a41cf41a1e164e2bf4bf15a163 = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_03203f453cc7fc701b1950f52e058739 = $(`<div id="html_03203f453cc7fc701b1950f52e058739" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Dedham</b><br><b>2</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_ea0e1a5684fe1c55ea4cdb59b8b532f0.setContent(html_03203f453cc7fc701b1950f52e058739);
+                var html_765e83cf8c4f9f364bfdcf4fa2728796 = $(`<div id="html_765e83cf8c4f9f364bfdcf4fa2728796" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Dedham</b><br><b>2</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_4d5b43a41cf41a1e164e2bf4bf15a163.setContent(html_765e83cf8c4f9f364bfdcf4fa2728796);
             
         
 
-        circle_marker_1b4fd4eb7f851309261eb47adbdd6faf.bindPopup(popup_ea0e1a5684fe1c55ea4cdb59b8b532f0)
+        circle_marker_648cc10f66516c05fe4c9e207ffa0f1a.bindPopup(popup_4d5b43a41cf41a1e164e2bf4bf15a163)
         ;
 
         
     
     
-            circle_marker_1b4fd4eb7f851309261eb47adbdd6faf.bindTooltip(
+            circle_marker_648cc10f66516c05fe4c9e207ffa0f1a.bindTooltip(
                 `<div>
                      Dedham: 2 — tap for details
                  </div>`,
@@ -1725,30 +1758,63 @@
             );
         
     
-            var circle_marker_3b2490c1a42bf35bcf0324e5f1b694d0 = L.circleMarker(
-                [42.0834, -71.0184],
+            var circle_marker_9db9426b57871c9b767e96d38d924175 = L.circleMarker(
+                [42.2529, -71.0023],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 9.8, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_869994e25d5e52a7edc9c941cf26002a = L.popup({
+        var popup_938939d451064ba94dc3d9724ce9d68f = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_a9f962868509333a0d01a59d88fc454e = $(`<div id="html_a9f962868509333a0d01a59d88fc454e" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Brockton</b><br><b>2</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_869994e25d5e52a7edc9c941cf26002a.setContent(html_a9f962868509333a0d01a59d88fc454e);
+                var html_3a8b9e173dabdd0a6bb9bdbb59e98c69 = $(`<div id="html_3a8b9e173dabdd0a6bb9bdbb59e98c69" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Quincy</b><br><b>2</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_938939d451064ba94dc3d9724ce9d68f.setContent(html_3a8b9e173dabdd0a6bb9bdbb59e98c69);
             
         
 
-        circle_marker_3b2490c1a42bf35bcf0324e5f1b694d0.bindPopup(popup_869994e25d5e52a7edc9c941cf26002a)
+        circle_marker_9db9426b57871c9b767e96d38d924175.bindPopup(popup_938939d451064ba94dc3d9724ce9d68f)
         ;
 
         
     
     
-            circle_marker_3b2490c1a42bf35bcf0324e5f1b694d0.bindTooltip(
+            circle_marker_9db9426b57871c9b767e96d38d924175.bindTooltip(
+                `<div>
+                     Quincy: 2 — tap for details
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b7d8b5b57fea2363ad3570998421f71d = L.circleMarker(
+                [42.0834, -71.0184],
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 9.8, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
+        
+    
+        var popup_5ecc551127a59c0140db828cfaf65445 = L.popup({
+  "maxWidth": 240,
+});
+
+        
+            
+                var html_475223b348096c04191a8a3443cb2357 = $(`<div id="html_475223b348096c04191a8a3443cb2357" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Brockton</b><br><b>2</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_5ecc551127a59c0140db828cfaf65445.setContent(html_475223b348096c04191a8a3443cb2357);
+            
+        
+
+        circle_marker_b7d8b5b57fea2363ad3570998421f71d.bindPopup(popup_5ecc551127a59c0140db828cfaf65445)
+        ;
+
+        
+    
+    
+            circle_marker_b7d8b5b57fea2363ad3570998421f71d.bindTooltip(
                 `<div>
                      Brockton: 2 — tap for details
                  </div>`,
@@ -1758,32 +1824,32 @@
             );
         
     
-            var circle_marker_7ec32f4b28ed0201ab1fffe3af1b05cc = L.circleMarker(
-                [42.4084, -71.0537],
+            var circle_marker_ce7b06e32aff3833c4812227836455c3 = L.circleMarker(
+                [41.7798, -71.4373],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 9.8, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_f266e80b917540ffa0ded70940a1d502 = L.popup({
+        var popup_6f94588117d2818353323f245485968f = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_217c6132e42dd5714554835a48ed12c8 = $(`<div id="html_217c6132e42dd5714554835a48ed12c8" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Everett</b><br><b>2</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_f266e80b917540ffa0ded70940a1d502.setContent(html_217c6132e42dd5714554835a48ed12c8);
+                var html_7c491e8bf6625d16872d2f2cc49b8ce7 = $(`<div id="html_7c491e8bf6625d16872d2f2cc49b8ce7" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Cranston</b><br><b>2</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_6f94588117d2818353323f245485968f.setContent(html_7c491e8bf6625d16872d2f2cc49b8ce7);
             
         
 
-        circle_marker_7ec32f4b28ed0201ab1fffe3af1b05cc.bindPopup(popup_f266e80b917540ffa0ded70940a1d502)
+        circle_marker_ce7b06e32aff3833c4812227836455c3.bindPopup(popup_6f94588117d2818353323f245485968f)
         ;
 
         
     
     
-            circle_marker_7ec32f4b28ed0201ab1fffe3af1b05cc.bindTooltip(
+            circle_marker_ce7b06e32aff3833c4812227836455c3.bindTooltip(
                 `<div>
-                     Everett: 2 — tap for details
+                     Cranston: 2 — tap for details
                  </div>`,
                 {
   "sticky": true,
@@ -1791,30 +1857,30 @@
             );
         
     
-            var circle_marker_9c4974dbb37ac862270a7daa4464b51a = L.circleMarker(
+            var circle_marker_5524d1acb17f23b2609aa4b6d75c3c86 = L.circleMarker(
                 [42.2626, -71.8023],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 9.8, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_78450987791b1ece408c5db4fc250c7a = L.popup({
+        var popup_5db302f586e8062cb02a6da993ebd392 = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_fffb6600f673015f13dd38487fcdce8c = $(`<div id="html_fffb6600f673015f13dd38487fcdce8c" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Worcester</b><br><b>2</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_78450987791b1ece408c5db4fc250c7a.setContent(html_fffb6600f673015f13dd38487fcdce8c);
+                var html_cbe4de68051dd9ec3e55ba52af45cf94 = $(`<div id="html_cbe4de68051dd9ec3e55ba52af45cf94" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Worcester</b><br><b>2</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_5db302f586e8062cb02a6da993ebd392.setContent(html_cbe4de68051dd9ec3e55ba52af45cf94);
             
         
 
-        circle_marker_9c4974dbb37ac862270a7daa4464b51a.bindPopup(popup_78450987791b1ece408c5db4fc250c7a)
+        circle_marker_5524d1acb17f23b2609aa4b6d75c3c86.bindPopup(popup_5db302f586e8062cb02a6da993ebd392)
         ;
 
         
     
     
-            circle_marker_9c4974dbb37ac862270a7daa4464b51a.bindTooltip(
+            circle_marker_5524d1acb17f23b2609aa4b6d75c3c86.bindTooltip(
                 `<div>
                      Worcester: 2 — tap for details
                  </div>`,
@@ -1824,30 +1890,63 @@
             );
         
     
-            var circle_marker_fb4029699e4f90673b52034f42f26d72 = L.circleMarker(
-                [43.0, -71.45],
+            var circle_marker_182e0e43a9ea1362829c07bf30f6ac63 = L.circleMarker(
+                [42.4604, -71.3489],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 9.8, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_8d636b6d79d7ea899a5b124f62d3c821 = L.popup({
+        var popup_8902797ffd22099b0dac80fdcdda4bac = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_5e290a7591692ca7c194c168cd3a32c2 = $(`<div id="html_5e290a7591692ca7c194c168cd3a32c2" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>New Hampshire</b><br><b>2</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_8d636b6d79d7ea899a5b124f62d3c821.setContent(html_5e290a7591692ca7c194c168cd3a32c2);
+                var html_3266d962e8b91433a1d821a4791d8f1b = $(`<div id="html_3266d962e8b91433a1d821a4791d8f1b" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Concord</b><br><b>2</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_8902797ffd22099b0dac80fdcdda4bac.setContent(html_3266d962e8b91433a1d821a4791d8f1b);
             
         
 
-        circle_marker_fb4029699e4f90673b52034f42f26d72.bindPopup(popup_8d636b6d79d7ea899a5b124f62d3c821)
+        circle_marker_182e0e43a9ea1362829c07bf30f6ac63.bindPopup(popup_8902797ffd22099b0dac80fdcdda4bac)
         ;
 
         
     
     
-            circle_marker_fb4029699e4f90673b52034f42f26d72.bindTooltip(
+            circle_marker_182e0e43a9ea1362829c07bf30f6ac63.bindTooltip(
+                `<div>
+                     Concord: 2 — tap for details
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dbe936ecb9239d81c65bee5b24182a3a = L.circleMarker(
+                [43.0, -71.45],
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 9.8, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
+        
+    
+        var popup_b2b500a88d289f0238c4aa0419d1ac0b = L.popup({
+  "maxWidth": 240,
+});
+
+        
+            
+                var html_94e9fbd3de7050b457206a3713a3eccc = $(`<div id="html_94e9fbd3de7050b457206a3713a3eccc" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>New Hampshire</b><br><b>2</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_b2b500a88d289f0238c4aa0419d1ac0b.setContent(html_94e9fbd3de7050b457206a3713a3eccc);
+            
+        
+
+        circle_marker_dbe936ecb9239d81c65bee5b24182a3a.bindPopup(popup_b2b500a88d289f0238c4aa0419d1ac0b)
+        ;
+
+        
+    
+    
+            circle_marker_dbe936ecb9239d81c65bee5b24182a3a.bindTooltip(
                 `<div>
                      New Hampshire: 2 — tap for details
                  </div>`,
@@ -1857,65 +1956,32 @@
             );
         
     
-            var circle_marker_8b2826d6053b7c8b21730816615c4d8d = L.circleMarker(
-                [41.9445, -71.2856],
-                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 8.9, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
-        
-    
-        var popup_1a40257f5100d690deff6aef33de7b6e = L.popup({
-  "maxWidth": 240,
-});
-
-        
-            
-                var html_6b747896b13e71f3d58b44a13717a675 = $(`<div id="html_6b747896b13e71f3d58b44a13717a675" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Attleboro</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_1a40257f5100d690deff6aef33de7b6e.setContent(html_6b747896b13e71f3d58b44a13717a675);
-            
-        
-
-        circle_marker_8b2826d6053b7c8b21730816615c4d8d.bindPopup(popup_1a40257f5100d690deff6aef33de7b6e)
-        ;
-
-        
-    
-    
-            circle_marker_8b2826d6053b7c8b21730816615c4d8d.bindTooltip(
-                `<div>
-                     Attleboro: 1 — tap for details
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_1c7a72d9e8d91111d35aedc49c3505bc = L.circleMarker(
+            var circle_marker_00045d4951f9706e7819aaa9f4a21acd = L.circleMarker(
                 [42.4668, -70.9495],
-                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 8.9, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 9.8, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_7d2e3a93ce16fb5fe6f906f8d82932dd = L.popup({
+        var popup_606ead609a520455c44040ab79fdd7ee = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_eee9cf9c1f963f55ec75ffc9f5f90861 = $(`<div id="html_eee9cf9c1f963f55ec75ffc9f5f90861" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Lynn</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_7d2e3a93ce16fb5fe6f906f8d82932dd.setContent(html_eee9cf9c1f963f55ec75ffc9f5f90861);
+                var html_f74a00213a94b8e0078b0151d12c4e3b = $(`<div id="html_f74a00213a94b8e0078b0151d12c4e3b" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Lynn</b><br><b>2</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_606ead609a520455c44040ab79fdd7ee.setContent(html_f74a00213a94b8e0078b0151d12c4e3b);
             
         
 
-        circle_marker_1c7a72d9e8d91111d35aedc49c3505bc.bindPopup(popup_7d2e3a93ce16fb5fe6f906f8d82932dd)
+        circle_marker_00045d4951f9706e7819aaa9f4a21acd.bindPopup(popup_606ead609a520455c44040ab79fdd7ee)
         ;
 
         
     
     
-            circle_marker_1c7a72d9e8d91111d35aedc49c3505bc.bindTooltip(
+            circle_marker_00045d4951f9706e7819aaa9f4a21acd.bindTooltip(
                 `<div>
-                     Lynn: 1 — tap for details
+                     Lynn: 2 — tap for details
                  </div>`,
                 {
   "sticky": true,
@@ -1923,32 +1989,131 @@
             );
         
     
-            var circle_marker_a938493822f8cb7b70cd984565c54f4c = L.circleMarker(
+            var circle_marker_f8949493a69cda2514e012ffd4ee9d07 = L.circleMarker(
+                [42.375, -71.039],
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 9.8, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
+        
+    
+        var popup_189241b1b3c670ebcd231d67e1c524af = L.popup({
+  "maxWidth": 240,
+});
+
+        
+            
+                var html_bc23b5037b13170952f5010c993138ec = $(`<div id="html_bc23b5037b13170952f5010c993138ec" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>East Boston</b><br><b>2</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_189241b1b3c670ebcd231d67e1c524af.setContent(html_bc23b5037b13170952f5010c993138ec);
+            
+        
+
+        circle_marker_f8949493a69cda2514e012ffd4ee9d07.bindPopup(popup_189241b1b3c670ebcd231d67e1c524af)
+        ;
+
+        
+    
+    
+            circle_marker_f8949493a69cda2514e012ffd4ee9d07.bindTooltip(
+                `<div>
+                     East Boston: 2 — tap for details
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6d8b2f227fdf8e1f98942145616b41d1 = L.circleMarker(
+                [42.3, -71.066],
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 9.8, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
+        
+    
+        var popup_dc15451e302f351a31e4dd632d8a60b5 = L.popup({
+  "maxWidth": 240,
+});
+
+        
+            
+                var html_f8522bb8f26dcb3a4d3bbc3be1659c73 = $(`<div id="html_f8522bb8f26dcb3a4d3bbc3be1659c73" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Dorchester</b><br><b>2</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_dc15451e302f351a31e4dd632d8a60b5.setContent(html_f8522bb8f26dcb3a4d3bbc3be1659c73);
+            
+        
+
+        circle_marker_6d8b2f227fdf8e1f98942145616b41d1.bindPopup(popup_dc15451e302f351a31e4dd632d8a60b5)
+        ;
+
+        
+    
+    
+            circle_marker_6d8b2f227fdf8e1f98942145616b41d1.bindTooltip(
+                `<div>
+                     Dorchester: 2 — tap for details
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b73786a576d62c5017fc7582202dafc7 = L.circleMarker(
+                [42.9956, -71.4548],
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 9.8, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
+        
+    
+        var popup_c6b54d173da9bd0feb33279f420c42ba = L.popup({
+  "maxWidth": 240,
+});
+
+        
+            
+                var html_1428c15c4020726755517bc637961eae = $(`<div id="html_1428c15c4020726755517bc637961eae" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Manchester</b><br><b>2</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_c6b54d173da9bd0feb33279f420c42ba.setContent(html_1428c15c4020726755517bc637961eae);
+            
+        
+
+        circle_marker_b73786a576d62c5017fc7582202dafc7.bindPopup(popup_c6b54d173da9bd0feb33279f420c42ba)
+        ;
+
+        
+    
+    
+            circle_marker_b73786a576d62c5017fc7582202dafc7.bindTooltip(
+                `<div>
+                     Manchester: 2 — tap for details
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ff1f5332afb29e137d960854b6cb39a5 = L.circleMarker(
                 [42.5584, -70.88],
-                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 8.9, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 9.8, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_5491aa70e547345cd1c94f93832facd7 = L.popup({
+        var popup_4f42d3c9be4a36fcb88683d6e11d5bdd = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_5674d88c9a72a4fe7c040f5d19309b30 = $(`<div id="html_5674d88c9a72a4fe7c040f5d19309b30" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Beverly</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_5491aa70e547345cd1c94f93832facd7.setContent(html_5674d88c9a72a4fe7c040f5d19309b30);
+                var html_759021f8c58c7b54b48a10f4cb6ecf50 = $(`<div id="html_759021f8c58c7b54b48a10f4cb6ecf50" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Beverly</b><br><b>2</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_4f42d3c9be4a36fcb88683d6e11d5bdd.setContent(html_759021f8c58c7b54b48a10f4cb6ecf50);
             
         
 
-        circle_marker_a938493822f8cb7b70cd984565c54f4c.bindPopup(popup_5491aa70e547345cd1c94f93832facd7)
+        circle_marker_ff1f5332afb29e137d960854b6cb39a5.bindPopup(popup_4f42d3c9be4a36fcb88683d6e11d5bdd)
         ;
 
         
     
     
-            circle_marker_a938493822f8cb7b70cd984565c54f4c.bindTooltip(
+            circle_marker_ff1f5332afb29e137d960854b6cb39a5.bindTooltip(
                 `<div>
-                     Beverly: 1 — tap for details
+                     Beverly: 2 — tap for details
                  </div>`,
                 {
   "sticky": true,
@@ -1956,32 +2121,32 @@
             );
         
     
-            var circle_marker_2e4f6cc93ad834af11d0ac1095350ded = L.circleMarker(
-                [42.1959, -70.7259],
-                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 8.9, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            var circle_marker_310cf7f60a911c968332507590292144 = L.circleMarker(
+                [42.7762, -71.0773],
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 9.8, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_b7d19715e8c1159eda4d7430d35cd3ac = L.popup({
+        var popup_e9796d29f9b336b0c94eebe5b989745c = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_20270fbe056dabc9d7bb49c9f6cb4747 = $(`<div id="html_20270fbe056dabc9d7bb49c9f6cb4747" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Scituate</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_b7d19715e8c1159eda4d7430d35cd3ac.setContent(html_20270fbe056dabc9d7bb49c9f6cb4747);
+                var html_c7184fb448ee3de6a931f427b9c434c8 = $(`<div id="html_c7184fb448ee3de6a931f427b9c434c8" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Haverhill</b><br><b>2</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_e9796d29f9b336b0c94eebe5b989745c.setContent(html_c7184fb448ee3de6a931f427b9c434c8);
             
         
 
-        circle_marker_2e4f6cc93ad834af11d0ac1095350ded.bindPopup(popup_b7d19715e8c1159eda4d7430d35cd3ac)
+        circle_marker_310cf7f60a911c968332507590292144.bindPopup(popup_e9796d29f9b336b0c94eebe5b989745c)
         ;
 
         
     
     
-            circle_marker_2e4f6cc93ad834af11d0ac1095350ded.bindTooltip(
+            circle_marker_310cf7f60a911c968332507590292144.bindTooltip(
                 `<div>
-                     Scituate: 1 — tap for details
+                     Haverhill: 2 — tap for details
                  </div>`,
                 {
   "sticky": true,
@@ -1989,63 +2154,30 @@
             );
         
     
-            var circle_marker_f64c2444c40d4e389b53d7022a3ca44c = L.circleMarker(
-                [42.1626, -71.0412],
-                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 8.9, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
-        
-    
-        var popup_54f9039381adb6935538ebe68cab5dca = L.popup({
-  "maxWidth": 240,
-});
-
-        
-            
-                var html_8f01660d9557ac997719db9b191ec727 = $(`<div id="html_8f01660d9557ac997719db9b191ec727" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Randolph</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_54f9039381adb6935538ebe68cab5dca.setContent(html_8f01660d9557ac997719db9b191ec727);
-            
-        
-
-        circle_marker_f64c2444c40d4e389b53d7022a3ca44c.bindPopup(popup_54f9039381adb6935538ebe68cab5dca)
-        ;
-
-        
-    
-    
-            circle_marker_f64c2444c40d4e389b53d7022a3ca44c.bindTooltip(
-                `<div>
-                     Randolph: 1 — tap for details
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_8530adcb4c1fd992bf0a43437992d7d2 = L.circleMarker(
+            var circle_marker_320bd5f64e20947e0ad7079ef8c1e015 = L.circleMarker(
                 [42.638, -70.949],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 8.9, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_b595da447614e3c9152eed93100d2df7 = L.popup({
+        var popup_f00838cdc5775ac428b7a066a64f324a = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_830a08db3a3dc48c399dcc5e3e253f92 = $(`<div id="html_830a08db3a3dc48c399dcc5e3e253f92" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Topsfield</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_b595da447614e3c9152eed93100d2df7.setContent(html_830a08db3a3dc48c399dcc5e3e253f92);
+                var html_8be3471caeabd29a2fe687605e04fd97 = $(`<div id="html_8be3471caeabd29a2fe687605e04fd97" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Topsfield</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_f00838cdc5775ac428b7a066a64f324a.setContent(html_8be3471caeabd29a2fe687605e04fd97);
             
         
 
-        circle_marker_8530adcb4c1fd992bf0a43437992d7d2.bindPopup(popup_b595da447614e3c9152eed93100d2df7)
+        circle_marker_320bd5f64e20947e0ad7079ef8c1e015.bindPopup(popup_f00838cdc5775ac428b7a066a64f324a)
         ;
 
         
     
     
-            circle_marker_8530adcb4c1fd992bf0a43437992d7d2.bindTooltip(
+            circle_marker_320bd5f64e20947e0ad7079ef8c1e015.bindTooltip(
                 `<div>
                      Topsfield: 1 — tap for details
                  </div>`,
@@ -2055,63 +2187,30 @@
             );
         
     
-            var circle_marker_52b02f38d4ee8ce1416b9f6c90f970f4 = L.circleMarker(
-                [42.2529, -71.0023],
-                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 8.9, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
-        
-    
-        var popup_512353b651169e0660b1573ca47bdae3 = L.popup({
-  "maxWidth": 240,
-});
-
-        
-            
-                var html_6adcc3480e912745f36292ef105ec98d = $(`<div id="html_6adcc3480e912745f36292ef105ec98d" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Quincy</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_512353b651169e0660b1573ca47bdae3.setContent(html_6adcc3480e912745f36292ef105ec98d);
-            
-        
-
-        circle_marker_52b02f38d4ee8ce1416b9f6c90f970f4.bindPopup(popup_512353b651169e0660b1573ca47bdae3)
-        ;
-
-        
-    
-    
-            circle_marker_52b02f38d4ee8ce1416b9f6c90f970f4.bindTooltip(
-                `<div>
-                     Quincy: 1 — tap for details
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_d9058d007da5fddc72b0f1f820774736 = L.circleMarker(
+            var circle_marker_38417a0fba9604962187a9a5eba4bdf1 = L.circleMarker(
                 [41.7001, -71.4162],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 8.9, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_7245a078b687729f9a890706d5826ab4 = L.popup({
+        var popup_bb6a51c757d85c8884f75d87914b76f6 = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_2558831d89f133986b982f028d3daa74 = $(`<div id="html_2558831d89f133986b982f028d3daa74" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Warwick</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_7245a078b687729f9a890706d5826ab4.setContent(html_2558831d89f133986b982f028d3daa74);
+                var html_8e200b55d0244e332704709aadad0b3c = $(`<div id="html_8e200b55d0244e332704709aadad0b3c" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Warwick</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_bb6a51c757d85c8884f75d87914b76f6.setContent(html_8e200b55d0244e332704709aadad0b3c);
             
         
 
-        circle_marker_d9058d007da5fddc72b0f1f820774736.bindPopup(popup_7245a078b687729f9a890706d5826ab4)
+        circle_marker_38417a0fba9604962187a9a5eba4bdf1.bindPopup(popup_bb6a51c757d85c8884f75d87914b76f6)
         ;
 
         
     
     
-            circle_marker_d9058d007da5fddc72b0f1f820774736.bindTooltip(
+            circle_marker_38417a0fba9604962187a9a5eba4bdf1.bindTooltip(
                 `<div>
                      Warwick: 1 — tap for details
                  </div>`,
@@ -2121,63 +2220,30 @@
             );
         
     
-            var circle_marker_9415d1089d1b2a4d66e0e257bf646601 = L.circleMarker(
-                [41.7798, -71.4373],
-                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 8.9, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
-        
-    
-        var popup_86fe3e9084acc25aeeffb69393215e33 = L.popup({
-  "maxWidth": 240,
-});
-
-        
-            
-                var html_b2b164473fa5c6c4d83051e16a46ad5e = $(`<div id="html_b2b164473fa5c6c4d83051e16a46ad5e" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Cranston</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_86fe3e9084acc25aeeffb69393215e33.setContent(html_b2b164473fa5c6c4d83051e16a46ad5e);
-            
-        
-
-        circle_marker_9415d1089d1b2a4d66e0e257bf646601.bindPopup(popup_86fe3e9084acc25aeeffb69393215e33)
-        ;
-
-        
-    
-    
-            circle_marker_9415d1089d1b2a4d66e0e257bf646601.bindTooltip(
-                `<div>
-                     Cranston: 1 — tap for details
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_3b971589ae541866e62b47c12758245f = L.circleMarker(
+            var circle_marker_40042447a791cde65224f73e306f9ca9 = L.circleMarker(
                 [42.5001, -70.8578],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 8.9, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_fae381be9fb02e73fcd908cadf0f74ef = L.popup({
+        var popup_7315a34c241a216169bd2881c1829ea4 = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_a4a96de3cd504122abc663ecbbfc7d9b = $(`<div id="html_a4a96de3cd504122abc663ecbbfc7d9b" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Marblehead</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_fae381be9fb02e73fcd908cadf0f74ef.setContent(html_a4a96de3cd504122abc663ecbbfc7d9b);
+                var html_988008378601c4779216fa3aada38f8e = $(`<div id="html_988008378601c4779216fa3aada38f8e" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Marblehead</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_7315a34c241a216169bd2881c1829ea4.setContent(html_988008378601c4779216fa3aada38f8e);
             
         
 
-        circle_marker_3b971589ae541866e62b47c12758245f.bindPopup(popup_fae381be9fb02e73fcd908cadf0f74ef)
+        circle_marker_40042447a791cde65224f73e306f9ca9.bindPopup(popup_7315a34c241a216169bd2881c1829ea4)
         ;
 
         
     
     
-            circle_marker_3b971589ae541866e62b47c12758245f.bindTooltip(
+            circle_marker_40042447a791cde65224f73e306f9ca9.bindTooltip(
                 `<div>
                      Marblehead: 1 — tap for details
                  </div>`,
@@ -2187,30 +2253,30 @@
             );
         
     
-            var circle_marker_c51865b7e14dfefca3c7fe2f42c0ed83 = L.circleMarker(
+            var circle_marker_97674b006a924eae677b98bc5fe0019d = L.circleMarker(
                 [42.6159, -70.662],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 8.9, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_aa5d7027101275f3818fcc7e2dfaa503 = L.popup({
+        var popup_c58a1fa9256c63f9ddd8c8678ce47158 = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_d909fe5f525e607b49cd446db27b85b7 = $(`<div id="html_d909fe5f525e607b49cd446db27b85b7" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Gloucester</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_aa5d7027101275f3818fcc7e2dfaa503.setContent(html_d909fe5f525e607b49cd446db27b85b7);
+                var html_8bdb5cce390a9b2fe1ba5b9c814d2433 = $(`<div id="html_8bdb5cce390a9b2fe1ba5b9c814d2433" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Gloucester</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_c58a1fa9256c63f9ddd8c8678ce47158.setContent(html_8bdb5cce390a9b2fe1ba5b9c814d2433);
             
         
 
-        circle_marker_c51865b7e14dfefca3c7fe2f42c0ed83.bindPopup(popup_aa5d7027101275f3818fcc7e2dfaa503)
+        circle_marker_97674b006a924eae677b98bc5fe0019d.bindPopup(popup_c58a1fa9256c63f9ddd8c8678ce47158)
         ;
 
         
     
     
-            circle_marker_c51865b7e14dfefca3c7fe2f42c0ed83.bindTooltip(
+            circle_marker_97674b006a924eae677b98bc5fe0019d.bindTooltip(
                 `<div>
                      Gloucester: 1 — tap for details
                  </div>`,
@@ -2220,30 +2286,30 @@
             );
         
     
-            var circle_marker_056628ad9c81db787b814d7d3dd1f911 = L.circleMarker(
+            var circle_marker_a512c8f1902ea8e381bd9165a2d2dc60 = L.circleMarker(
                 [42.0334, -71.2189],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 8.9, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_84f48f8d4f668fe2eecb991d2f61ce0f = L.popup({
+        var popup_0aea1fa2eff1f5d030ed16343ce892a5 = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_058c6e58b69197487f615867cde14188 = $(`<div id="html_058c6e58b69197487f615867cde14188" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Mansfield</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_84f48f8d4f668fe2eecb991d2f61ce0f.setContent(html_058c6e58b69197487f615867cde14188);
+                var html_c5e5e7d1b8701c2fc6dab65bc6bdaef2 = $(`<div id="html_c5e5e7d1b8701c2fc6dab65bc6bdaef2" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Mansfield</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_0aea1fa2eff1f5d030ed16343ce892a5.setContent(html_c5e5e7d1b8701c2fc6dab65bc6bdaef2);
             
         
 
-        circle_marker_056628ad9c81db787b814d7d3dd1f911.bindPopup(popup_84f48f8d4f668fe2eecb991d2f61ce0f)
+        circle_marker_a512c8f1902ea8e381bd9165a2d2dc60.bindPopup(popup_0aea1fa2eff1f5d030ed16343ce892a5)
         ;
 
         
     
     
-            circle_marker_056628ad9c81db787b814d7d3dd1f911.bindTooltip(
+            circle_marker_a512c8f1902ea8e381bd9165a2d2dc60.bindTooltip(
                 `<div>
                      Mansfield: 1 — tap for details
                  </div>`,
@@ -2253,30 +2319,30 @@
             );
         
     
-            var circle_marker_dd46ab5a984270335ffed757e629650d = L.circleMarker(
+            var circle_marker_e97607f0030a98aaf9a2f22c5147e9ca = L.circleMarker(
                 [42.024, -71.13],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 8.9, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_9483e346d6262ea4ae210156f6173998 = L.popup({
+        var popup_1e91013da296c445ba93c7523ec119f4 = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_2c69cd607724a4792a73158d7a4dc560 = $(`<div id="html_2c69cd607724a4792a73158d7a4dc560" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Easton</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_9483e346d6262ea4ae210156f6173998.setContent(html_2c69cd607724a4792a73158d7a4dc560);
+                var html_0819b33c99b6ac145d5ac09dcc58acd0 = $(`<div id="html_0819b33c99b6ac145d5ac09dcc58acd0" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Easton</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_1e91013da296c445ba93c7523ec119f4.setContent(html_0819b33c99b6ac145d5ac09dcc58acd0);
             
         
 
-        circle_marker_dd46ab5a984270335ffed757e629650d.bindPopup(popup_9483e346d6262ea4ae210156f6173998)
+        circle_marker_e97607f0030a98aaf9a2f22c5147e9ca.bindPopup(popup_1e91013da296c445ba93c7523ec119f4)
         ;
 
         
     
     
-            circle_marker_dd46ab5a984270335ffed757e629650d.bindTooltip(
+            circle_marker_e97607f0030a98aaf9a2f22c5147e9ca.bindTooltip(
                 `<div>
                      Easton: 1 — tap for details
                  </div>`,
@@ -2286,30 +2352,30 @@
             );
         
     
-            var circle_marker_0c45f6f26b917ba26226559ad3c5afc0 = L.circleMarker(
+            var circle_marker_8701ca1b1458f74f9d7e4244687d5efe = L.circleMarker(
                 [42.707, -71.1631],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 8.9, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_fdd2a55d186fb2fd8ff549e98edd8098 = L.popup({
+        var popup_96b05c89f9722a0fbfc5d7a0ab9d04d4 = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_6feb78ece7ef702ccdd7eb2c73764342 = $(`<div id="html_6feb78ece7ef702ccdd7eb2c73764342" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Lawrence</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_fdd2a55d186fb2fd8ff549e98edd8098.setContent(html_6feb78ece7ef702ccdd7eb2c73764342);
+                var html_92175b7c789662d27e29723cfd588a32 = $(`<div id="html_92175b7c789662d27e29723cfd588a32" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Lawrence</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_96b05c89f9722a0fbfc5d7a0ab9d04d4.setContent(html_92175b7c789662d27e29723cfd588a32);
             
         
 
-        circle_marker_0c45f6f26b917ba26226559ad3c5afc0.bindPopup(popup_fdd2a55d186fb2fd8ff549e98edd8098)
+        circle_marker_8701ca1b1458f74f9d7e4244687d5efe.bindPopup(popup_96b05c89f9722a0fbfc5d7a0ab9d04d4)
         ;
 
         
     
     
-            circle_marker_0c45f6f26b917ba26226559ad3c5afc0.bindTooltip(
+            circle_marker_8701ca1b1458f74f9d7e4244687d5efe.bindTooltip(
                 `<div>
                      Lawrence: 1 — tap for details
                  </div>`,
@@ -2319,30 +2385,30 @@
             );
         
     
-            var circle_marker_a04df23732ae54ac12cc622f6f47a030 = L.circleMarker(
+            var circle_marker_de0ad99dad2ae711dce82b5b15ea7d62 = L.circleMarker(
                 [42.7884, -71.2009],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 8.9, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_a78ca7673a21b5a4946816cf1516afbe = L.popup({
+        var popup_d0be86a385824ad839d8e9f616767d00 = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_1ea410559c5bb38bab526c38427f46f0 = $(`<div id="html_1ea410559c5bb38bab526c38427f46f0" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Salem NH</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_a78ca7673a21b5a4946816cf1516afbe.setContent(html_1ea410559c5bb38bab526c38427f46f0);
+                var html_cdcf5320b12e22a13a64aefbec418356 = $(`<div id="html_cdcf5320b12e22a13a64aefbec418356" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Salem NH</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_d0be86a385824ad839d8e9f616767d00.setContent(html_cdcf5320b12e22a13a64aefbec418356);
             
         
 
-        circle_marker_a04df23732ae54ac12cc622f6f47a030.bindPopup(popup_a78ca7673a21b5a4946816cf1516afbe)
+        circle_marker_de0ad99dad2ae711dce82b5b15ea7d62.bindPopup(popup_d0be86a385824ad839d8e9f616767d00)
         ;
 
         
     
     
-            circle_marker_a04df23732ae54ac12cc622f6f47a030.bindTooltip(
+            circle_marker_de0ad99dad2ae711dce82b5b15ea7d62.bindTooltip(
                 `<div>
                      Salem NH: 1 — tap for details
                  </div>`,
@@ -2352,30 +2418,426 @@
             );
         
     
-            var circle_marker_62adbbf2aaa742a0a77644d84e67c093 = L.circleMarker(
-                [42.8126, -70.8773],
+            var circle_marker_0e874bf2f6a5728667f3b76ae34e3a8f = L.circleMarker(
+                [42.0029, -71.5151],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 8.9, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_60658ef74f4470c5d5ed659ed5f10280 = L.popup({
+        var popup_eb015a50e36d7fec538dc0251118b47c = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_ecd1ac1036c58686fb181de6cc0c475c = $(`<div id="html_ecd1ac1036c58686fb181de6cc0c475c" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Newburyport</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_60658ef74f4470c5d5ed659ed5f10280.setContent(html_ecd1ac1036c58686fb181de6cc0c475c);
+                var html_8e7f9cdc90f07adffa3b6f6500cd9788 = $(`<div id="html_8e7f9cdc90f07adffa3b6f6500cd9788" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Woonsocket</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_eb015a50e36d7fec538dc0251118b47c.setContent(html_8e7f9cdc90f07adffa3b6f6500cd9788);
             
         
 
-        circle_marker_62adbbf2aaa742a0a77644d84e67c093.bindPopup(popup_60658ef74f4470c5d5ed659ed5f10280)
+        circle_marker_0e874bf2f6a5728667f3b76ae34e3a8f.bindPopup(popup_eb015a50e36d7fec538dc0251118b47c)
         ;
 
         
     
     
-            circle_marker_62adbbf2aaa742a0a77644d84e67c093.bindTooltip(
+            circle_marker_0e874bf2f6a5728667f3b76ae34e3a8f.bindTooltip(
+                `<div>
+                     Woonsocket: 1 — tap for details
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8198d74749eaf081b30fdda2bc70a8d8 = L.circleMarker(
+                [42.5048, -71.1956],
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 8.9, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
+        
+    
+        var popup_c60a40045e3fe058e21229d51c35b859 = L.popup({
+  "maxWidth": 240,
+});
+
+        
+            
+                var html_893a08d0a92adc1d98f08f445658c466 = $(`<div id="html_893a08d0a92adc1d98f08f445658c466" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Burlington</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_c60a40045e3fe058e21229d51c35b859.setContent(html_893a08d0a92adc1d98f08f445658c466);
+            
+        
+
+        circle_marker_8198d74749eaf081b30fdda2bc70a8d8.bindPopup(popup_c60a40045e3fe058e21229d51c35b859)
+        ;
+
+        
+    
+    
+            circle_marker_8198d74749eaf081b30fdda2bc70a8d8.bindTooltip(
+                `<div>
+                     Burlington: 1 — tap for details
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b4c21cd80b0f8eca284b59fe4e13d7e7 = L.circleMarker(
+                [42.327, -71.095],
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 8.9, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
+        
+    
+        var popup_ec47d0083ab66a5c8840dc13cdcc8e2f = L.popup({
+  "maxWidth": 240,
+});
+
+        
+            
+                var html_70e973682213faf630381c12cfa71637 = $(`<div id="html_70e973682213faf630381c12cfa71637" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Roxbury</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_ec47d0083ab66a5c8840dc13cdcc8e2f.setContent(html_70e973682213faf630381c12cfa71637);
+            
+        
+
+        circle_marker_b4c21cd80b0f8eca284b59fe4e13d7e7.bindPopup(popup_ec47d0083ab66a5c8840dc13cdcc8e2f)
+        ;
+
+        
+    
+    
+            circle_marker_b4c21cd80b0f8eca284b59fe4e13d7e7.bindTooltip(
+                `<div>
+                     Roxbury: 1 — tap for details
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2bf000740c6062afd2aff6b5e744d783 = L.circleMarker(
+                [42.218, -70.9395],
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 8.9, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
+        
+    
+        var popup_a5e5bedf87b9da885874ccacca603997 = L.popup({
+  "maxWidth": 240,
+});
+
+        
+            
+                var html_97471dc255358e5882f9707530062845 = $(`<div id="html_97471dc255358e5882f9707530062845" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Weymouth</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_a5e5bedf87b9da885874ccacca603997.setContent(html_97471dc255358e5882f9707530062845);
+            
+        
+
+        circle_marker_2bf000740c6062afd2aff6b5e744d783.bindPopup(popup_a5e5bedf87b9da885874ccacca603997)
+        ;
+
+        
+    
+    
+            circle_marker_2bf000740c6062afd2aff6b5e744d783.bindTooltip(
+                `<div>
+                     Weymouth: 1 — tap for details
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cd9674ed2a3ef5af1c6756a01e6bfabd = L.circleMarker(
+                [42.345, -71.104],
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 8.9, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
+        
+    
+        var popup_0efbfacdc469d098304528ae7a50fe3b = L.popup({
+  "maxWidth": 240,
+});
+
+        
+            
+                var html_b3ff8efd9dfc42afef62e1790edf5780 = $(`<div id="html_b3ff8efd9dfc42afef62e1790edf5780" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Fenway</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_0efbfacdc469d098304528ae7a50fe3b.setContent(html_b3ff8efd9dfc42afef62e1790edf5780);
+            
+        
+
+        circle_marker_cd9674ed2a3ef5af1c6756a01e6bfabd.bindPopup(popup_0efbfacdc469d098304528ae7a50fe3b)
+        ;
+
+        
+    
+    
+            circle_marker_cd9674ed2a3ef5af1c6756a01e6bfabd.bindTooltip(
+                `<div>
+                     Fenway: 1 — tap for details
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_63ec8dcbc0375bd29dbed0830defcaf8 = L.circleMarker(
+                [42.333, -71.049],
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 8.9, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
+        
+    
+        var popup_9f03fcf9f9b75c864b41466b3f9d0a21 = L.popup({
+  "maxWidth": 240,
+});
+
+        
+            
+                var html_2704339fef9d9a844a09291088f05832 = $(`<div id="html_2704339fef9d9a844a09291088f05832" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Southie</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_9f03fcf9f9b75c864b41466b3f9d0a21.setContent(html_2704339fef9d9a844a09291088f05832);
+            
+        
+
+        circle_marker_63ec8dcbc0375bd29dbed0830defcaf8.bindPopup(popup_9f03fcf9f9b75c864b41466b3f9d0a21)
+        ;
+
+        
+    
+    
+            circle_marker_63ec8dcbc0375bd29dbed0830defcaf8.bindTooltip(
+                `<div>
+                     Southie: 1 — tap for details
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0d6c69e9260c1802c621e53514260ec5 = L.circleMarker(
+                [42.378, -71.061],
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 8.9, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
+        
+    
+        var popup_da52f4a39ee7b0e6b8e6007a9492769d = L.popup({
+  "maxWidth": 240,
+});
+
+        
+            
+                var html_bc34f6d7e67733d09b5e7d56b54eefe1 = $(`<div id="html_bc34f6d7e67733d09b5e7d56b54eefe1" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Charlestown</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_da52f4a39ee7b0e6b8e6007a9492769d.setContent(html_bc34f6d7e67733d09b5e7d56b54eefe1);
+            
+        
+
+        circle_marker_0d6c69e9260c1802c621e53514260ec5.bindPopup(popup_da52f4a39ee7b0e6b8e6007a9492769d)
+        ;
+
+        
+    
+    
+            circle_marker_0d6c69e9260c1802c621e53514260ec5.bindTooltip(
+                `<div>
+                     Charlestown: 1 — tap for details
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a48f0616b35fb18dd1b36f87e1210a53 = L.circleMarker(
+                [42.3459, -71.5523],
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 8.9, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
+        
+    
+        var popup_3a2593b99d356667fe1116053ace17e7 = L.popup({
+  "maxWidth": 240,
+});
+
+        
+            
+                var html_6db40597b25094708ab933a597045faf = $(`<div id="html_6db40597b25094708ab933a597045faf" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Marlborough</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_3a2593b99d356667fe1116053ace17e7.setContent(html_6db40597b25094708ab933a597045faf);
+            
+        
+
+        circle_marker_a48f0616b35fb18dd1b36f87e1210a53.bindPopup(popup_3a2593b99d356667fe1116053ace17e7)
+        ;
+
+        
+    
+    
+            circle_marker_a48f0616b35fb18dd1b36f87e1210a53.bindTooltip(
+                `<div>
+                     Marlborough: 1 — tap for details
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d03ec46d9f7500ef096c91abbd84f2d4 = L.circleMarker(
+                [42.3918, -71.0328],
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 8.9, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
+        
+    
+        var popup_8289de97404eedf9c76bed4576a2262f = L.popup({
+  "maxWidth": 240,
+});
+
+        
+            
+                var html_e51bb18870b49ad8517685dc600d4ce6 = $(`<div id="html_e51bb18870b49ad8517685dc600d4ce6" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Chelsea</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_8289de97404eedf9c76bed4576a2262f.setContent(html_e51bb18870b49ad8517685dc600d4ce6);
+            
+        
+
+        circle_marker_d03ec46d9f7500ef096c91abbd84f2d4.bindPopup(popup_8289de97404eedf9c76bed4576a2262f)
+        ;
+
+        
+    
+    
+            circle_marker_d03ec46d9f7500ef096c91abbd84f2d4.bindTooltip(
+                `<div>
+                     Chelsea: 1 — tap for details
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7fed936d5cffa06e304c85efb70da36e = L.circleMarker(
+                [42.7654, -71.4676],
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 8.9, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
+        
+    
+        var popup_1a1135cb9470e7ee14c05aa2c498264b = L.popup({
+  "maxWidth": 240,
+});
+
+        
+            
+                var html_e423990d1acccf9e40aee4a1273d0068 = $(`<div id="html_e423990d1acccf9e40aee4a1273d0068" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Nashua</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_1a1135cb9470e7ee14c05aa2c498264b.setContent(html_e423990d1acccf9e40aee4a1273d0068);
+            
+        
+
+        circle_marker_7fed936d5cffa06e304c85efb70da36e.bindPopup(popup_1a1135cb9470e7ee14c05aa2c498264b)
+        ;
+
+        
+    
+    
+            circle_marker_7fed936d5cffa06e304c85efb70da36e.bindTooltip(
+                `<div>
+                     Nashua: 1 — tap for details
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_85e0080934293822522b2bfc34e3cc57 = L.circleMarker(
+                [42.1959, -70.7259],
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 8.9, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
+        
+    
+        var popup_94f9f8560bb34c2163d9958fed20e780 = L.popup({
+  "maxWidth": 240,
+});
+
+        
+            
+                var html_7fa22075ebf1cb569294a99f730fcb0e = $(`<div id="html_7fa22075ebf1cb569294a99f730fcb0e" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Scituate</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_94f9f8560bb34c2163d9958fed20e780.setContent(html_7fa22075ebf1cb569294a99f730fcb0e);
+            
+        
+
+        circle_marker_85e0080934293822522b2bfc34e3cc57.bindPopup(popup_94f9f8560bb34c2163d9958fed20e780)
+        ;
+
+        
+    
+    
+            circle_marker_85e0080934293822522b2bfc34e3cc57.bindTooltip(
+                `<div>
+                     Scituate: 1 — tap for details
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_74173f072a6895655e8cc81326e21060 = L.circleMarker(
+                [42.1626, -71.0412],
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 8.9, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
+        
+    
+        var popup_d79bc594307885457995662ffa2dff11 = L.popup({
+  "maxWidth": 240,
+});
+
+        
+            
+                var html_9c3b4039186a78ff6a63aaa371274a00 = $(`<div id="html_9c3b4039186a78ff6a63aaa371274a00" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Randolph</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_d79bc594307885457995662ffa2dff11.setContent(html_9c3b4039186a78ff6a63aaa371274a00);
+            
+        
+
+        circle_marker_74173f072a6895655e8cc81326e21060.bindPopup(popup_d79bc594307885457995662ffa2dff11)
+        ;
+
+        
+    
+    
+            circle_marker_74173f072a6895655e8cc81326e21060.bindTooltip(
+                `<div>
+                     Randolph: 1 — tap for details
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a18863e4387cf634672e4856f756ec2e = L.circleMarker(
+                [42.8126, -70.8773],
+                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 8.9, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
+        
+    
+        var popup_11e2704e8cef9751caf8d7c6f5b3bed8 = L.popup({
+  "maxWidth": 240,
+});
+
+        
+            
+                var html_f269e22f34b9141874ded0640a56e362 = $(`<div id="html_f269e22f34b9141874ded0640a56e362" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Newburyport</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_11e2704e8cef9751caf8d7c6f5b3bed8.setContent(html_f269e22f34b9141874ded0640a56e362);
+            
+        
+
+        circle_marker_a18863e4387cf634672e4856f756ec2e.bindPopup(popup_11e2704e8cef9751caf8d7c6f5b3bed8)
+        ;
+
+        
+    
+    
+            circle_marker_a18863e4387cf634672e4856f756ec2e.bindTooltip(
                 `<div>
                      Newburyport: 1 — tap for details
                  </div>`,
@@ -2385,63 +2847,30 @@
             );
         
     
-            var circle_marker_21a9d8a9bf170ad26d6860a36b0c09af = L.circleMarker(
-                [41.9584, -70.6673],
-                {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 8.9, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
-        
-    
-        var popup_740a275496aa37c7e7845dc2437392ad = L.popup({
-  "maxWidth": 240,
-});
-
-        
-            
-                var html_6fcaba90628dad4b3a991ed95c0e90e0 = $(`<div id="html_6fcaba90628dad4b3a991ed95c0e90e0" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Plymouth</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_740a275496aa37c7e7845dc2437392ad.setContent(html_6fcaba90628dad4b3a991ed95c0e90e0);
-            
-        
-
-        circle_marker_21a9d8a9bf170ad26d6860a36b0c09af.bindPopup(popup_740a275496aa37c7e7845dc2437392ad)
-        ;
-
-        
-    
-    
-            circle_marker_21a9d8a9bf170ad26d6860a36b0c09af.bindTooltip(
-                `<div>
-                     Plymouth: 1 — tap for details
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_54435926f538d6444ca5192e1aeb8f5c = L.circleMarker(
+            var circle_marker_76979205e09f08355d97e71bfd3e7951 = L.circleMarker(
                 [42.287, -71.124],
                 {"bubblingMouseEvents": true, "color": "#7b001c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 8.9, "stroke": true, "weight": 1.5}
-            ).addTo(feature_group_4cd3eb5935a0af69d72cf5fae5325628);
+            ).addTo(feature_group_59ffa4eb7d84822aeb6619408f63addc);
         
     
-        var popup_8d0a2baeb34abf304f6962878724a7e3 = L.popup({
+        var popup_fa2fc97a4721da29a10e98a2d7ae51e9 = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_a3f4130e6d61a05d4bd11544fe1f67ce = $(`<div id="html_a3f4130e6d61a05d4bd11544fe1f67ce" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Roslindale</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
-                popup_8d0a2baeb34abf304f6962878724a7e3.setContent(html_a3f4130e6d61a05d4bd11544fe1f67ce);
+                var html_dfc27d4ca52d12be464a03cdb33b17dd = $(`<div id="html_dfc27d4ca52d12be464a03cdb33b17dd" style="width: 100.0%; height: 100.0%;"><div style='font-size:14px'><b>Roslindale</b><br><b>1</b> people reported hearing/feeling it</div></div>`)[0];
+                popup_fa2fc97a4721da29a10e98a2d7ae51e9.setContent(html_dfc27d4ca52d12be464a03cdb33b17dd);
             
         
 
-        circle_marker_54435926f538d6444ca5192e1aeb8f5c.bindPopup(popup_8d0a2baeb34abf304f6962878724a7e3)
+        circle_marker_76979205e09f08355d97e71bfd3e7951.bindPopup(popup_fa2fc97a4721da29a10e98a2d7ae51e9)
         ;
 
         
     
     
-            circle_marker_54435926f538d6444ca5192e1aeb8f5c.bindTooltip(
+            circle_marker_76979205e09f08355d97e71bfd3e7951.bindTooltip(
                 `<div>
                      Roslindale: 1 — tap for details
                  </div>`,
@@ -2451,7 +2880,7 @@
             );
         
     
-            feature_group_4cd3eb5935a0af69d72cf5fae5325628.addTo(map_acd07f6eb5ad7c50eb7274882af41266);
+            feature_group_59ffa4eb7d84822aeb6619408f63addc.addTo(map_fa6a0652254f6acd2b208a93e4c8117b);
         
 </script>
 </html>
